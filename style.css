@@ -1,3 +1,4 @@
+
 .tom-nav-pipe {
     padding-top: 8px;
 }
@@ -14,3 +15,23 @@
 .card-header {
     text-align: center;
 }
+
+
+/*category section  */
+.jmCatImgContainer{
+	position:relative;
+	justify-content: center;
+}
+.jmCatImg{
+position: relative;
+z-index: 10;
+}
+
+.jmCatImgContainer .jmCatTitle{
+	width: 100%;
+	position: absolute;
+	top:50%;
+	text-align: center;
+	z-index: 20;
+}
+
