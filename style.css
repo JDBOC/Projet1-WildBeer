@@ -1,0 +1,15 @@
+.carousel-item {
+    max-height: 500px;
+}
+img {
+    min-height: 500px;
+    width: 100%;
+}
+h5 {
+    color: orangered;
+    font-size: 5rem;
+}
+p {
+    color:red;
+    font-size: 4rem;
+}
