@@ -35,3 +35,7 @@ z-index: 10;
 	z-index: 20;
 }
 
+
+.tom-invisible{
+  opacity: 0;
+}
