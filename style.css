@@ -1,0 +1,12 @@
+.biere {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    background-image: url("asset/img/jd/light-veneer.png");
+}
+
+.card-header {
+    text-align: center;
+}
