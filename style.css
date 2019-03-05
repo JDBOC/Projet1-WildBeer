@@ -15,6 +15,11 @@ section {
     color: white;
 }
 
+.tom-icon {
+  width: 10%;
+  height: auto;
+}
+
 @media only screen and (max-width: 800px) {
     .tom-invisible {
         opacity: 0;
