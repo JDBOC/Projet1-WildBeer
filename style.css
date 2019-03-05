@@ -110,12 +110,12 @@ section {
 
 
 /*CSS FOOTER NOEL*/
-
-.iconefooter {
-    width: 300%;
-    height: 300%;
+.logofooter{
+    width: 60%;
 }
+
 
 /* CSS DES CATEGORIES*/
 .card-product-category{
   margin-bottom: 15px;
+}
