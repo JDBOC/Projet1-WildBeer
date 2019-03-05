@@ -1,20 +1,28 @@
 /*CSS GENERAL*/
-
+section{
+  margin-bottom: 15px;
+}
 
 /*CSS NAVBAR THOMAS*/
 .tom-nav-pipe {
     padding-top: 8px;
 }
 
+@media only screen and (max-width: 800px) {
+  .tom-invisible{
+    opacity : 0;
+  }
+}
+
 /*CSS CAROUSSEL KEVIN*/
 
-.carousel-item {
-    
+.kev-carousel-item {
+    height: 25rem;
     width: 100%;
     height: 35rem;
 }
 
-.carousel-caption  {
+.kev-carousel-caption  {
     color: orangered;
     font-size: 4rem;
     bottom: 40%;
@@ -32,7 +40,7 @@
 /*CSS CATEGORIES JEAN MICHEL */
   #categories .card:hover  p {
   display:contents;
-  background-color: white; 
+  background-color: white;
 }
 
 #categories .card:hover img{
