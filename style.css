@@ -6,6 +6,12 @@
     padding-top: 8px;
 }
 
+@media only screen and (max-width: 800px) {
+  .tom-invisible{
+    opacity : 0;
+  }
+}
+
 /*CSS CAROUSSEL KEVIN*/
 
 .carousel-item {
@@ -25,7 +31,7 @@
 /*CSS CATEGORIES JEAN MICHEL */
   #categories .card:hover  p {
   display:contents;
-  background-color: white; 
+  background-color: white;
 }
 
 #categories .card:hover img{
