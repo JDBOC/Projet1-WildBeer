@@ -1,40 +1,46 @@
 /*CSS GENERAL*/
+
 section {
-  margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
+
 /*CSS NAVBAR THOMAS*/
+
 .tom-nav-pipe {
-  padding-top: 8px;
+    padding-top: 8px;
 }
-.tom-white-text{
-  color: white;
+
+.tom-white-text {
+    color: white;
 }
 
 @media only screen and (max-width: 800px) {
-  .tom-invisible {
-    opacity: 0;
-  }
-  .tom-go-right{
-    text-align: center;
-  }
-
+    .tom-invisible {
+        opacity: 0;
+    }
+    .tom-go-right {
+        text-align: center;
+    }
 }
+
 
 /*CSS CAROUSSEL KEVIN*/
+
 .kev-carousel-item {
-  height: 25rem;
-  width: 100%;
-  height: 35rem;
+    height: 25rem;
+    width: 100%;
+    height: 35rem;
 }
 
-.kev-carousel-caption  {
+.kev-carousel-caption {
     color: orangered;
     font-size: 4rem;
     bottom: 40%;
     text-shadow: 5px 5px 5px black;
     font-weight: bold;
 }
+
 .khtopic {
     color: orangered;
     font-size: 4rem;
@@ -43,45 +49,73 @@ section {
     font-weight: bold;
 }
 
-/*CSS CATEGORIES JEAN MICHEL */
-#categories .card:hover p {
-  display: contents;
-  background-color: white;
-}
 
-#categories .card:hover img {
-  opacity: 0.4;
+/*CSS CATEGORIES JEAN MICHEL */
+
+#categories {
+    background-color: #ffc107;
 }
 
 #categories .card p {
-  display: none;
+    display: none;
+    font-weight: bold;
 }
 
-#categories .card-title {
-  background-color: rgb(250, 250, 250, 0.8);
-  border-radius: 5px;
+#categories .catFlagImg {
+    position: absolute;
+    border: solid 2px black;
+    top: 4px;
+    left: 4px;
+    height: 30%;
 }
 
-#categories {
-  background-color: #ffc107;
+#categories .card:hover p {
+    display: contents;
+    background-color: white;
 }
+
+#categories .card:hover .catFlagImg {
+    right: 4px;
+    left: auto;
+    bottom: 4px;
+    top: auto;
+    height: 25%;
+}
+
+#categories .card:hover .card-img {
+    opacity: 0.4;
+}
+
 
 /* CSS ABOUT US JEAN DANIEL*/
+
 .biere {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
-.jd-card {
-  background-image: url("asset/img/jd/light-veneer.png");
+#aboutUs {
+    background-image: url("asset/img/jd/light-veneer.png");
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    padding-top: 2rem;
 }
 
-.card-header {
-  text-align: center;
+.jd-card-title {
+    text-align: center;
 }
+
 
 /*CSS TOP VENTES QUENTIN*/
+
+
 /*CSS FOOTER NOEL*/
 .logofooter{
     width: 60%;
+}
+
+
+/* CSS DES CATEGORIES*/
+.card-product-category{
+  margin-bottom: 15px;
 }
