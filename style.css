@@ -31,27 +31,43 @@ section{
 }
 
 /*CSS CATEGORIES JEAN MICHEL */
-  #categories .card:hover  p {
-  display:contents;
-  background-color: white;
-}
-
-#categories .card:hover img{
-  opacity: 0.4;
+#categories{
+    background-color: #ffc107;
 }
 
 #categories .card  p {
   display:none;
+  font-weight: bold; 
 }
 
-#categories .card-title{
-  background-color: rgb(250,250,250,0.8);
-  border-radius: 5px;
+#categories .catFlagImg{
+    position: absolute;
+    border: solid 2px black;
+    top: 4px;
+    left: 4px;
+    height: 30%;
 }
 
-#categories{
-	background-color: #ffc107;
+#categories .card:hover  p {
+  display:contents;
+  background-color: white;
 }
+
+ #categories .card:hover .catFlagImg  {
+right: 4px;
+left: auto;
+bottom:  4px;
+top: auto;
+height: 25%;
+}
+
+#categories .card:hover .card-img{
+  opacity: 0.4;
+}
+
+
+
+
 
 
 /* CSS ABOUT US JEAN DANIEL*/
