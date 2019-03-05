@@ -1,20 +1,28 @@
 /*CSS GENERAL*/
-
+section{
+  margin-bottom: 15px;
+}
 
 /*CSS NAVBAR THOMAS*/
 .tom-nav-pipe {
     padding-top: 8px;
 }
 
+@media only screen and (max-width: 800px) {
+  .tom-invisible{
+    opacity : 0;
+  }
+}
+
 /*CSS CAROUSSEL KEVIN*/
 
-.carousel-item {
+.kev-carousel-item {
     height: 25rem;
     width: 100%;
     height: 35rem;
 }
 
-.carousel-caption, h5 {
+.kev-carousel-caption h5 {
     color: orangered;
     font-size: 3rem;
     bottom: 55%;
@@ -23,27 +31,22 @@
 }
 
 /*CSS CATEGORIES JEAN MICHEL */
-
-.jmCatImgContainer{
-	position:relative;
-	justify-content: center;
-}
-.jmCatImg{
-position: relative;
-z-index: 10;
-border:solid 1px grey;
+  #categories .card:hover  p {
+  display:contents;
+  background-color: white;
 }
 
-.jmCatTitle{
-	display: inline-block;
-	position: absolute;
-	top:75%;
-	text-align: center;
-	z-index: 20;
-	font-size: 1.5rem;
-	border:solid transparent;
-	border-radius: 3px;
-	background-color: rgb(250,250,250,0.8);
+#categories .card:hover img{
+  opacity: 0.4;
+}
+
+#categories .card  p {
+  display:none;
+}
+
+#categories .card-title{
+  background-color: rgb(250,250,250,0.8);
+  border-radius: 5px;
 }
 
 #categories{
@@ -69,3 +72,7 @@ border:solid 1px grey;
 /*CSS TOP VENTES QUENTIN*/
 
 /*CSS FOOTER NOEL*/
+.iconefooter{
+    width: 300%;
+    height: 300%;
+}
