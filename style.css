@@ -1,7 +1,8 @@
 /*CSS GENERAL*/
 
 section {
-    margin-bottom: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 
@@ -71,6 +72,14 @@ section {
 
 #categories {
     background-color: #ffc107;
+}
+
+#categories .jmCatTitle{
+    margin-left: 25%;
+}
+
+#categories .card:hover .jmCatTitle{
+    margin-left: 0px;
 }
 
 #categories .card p {
