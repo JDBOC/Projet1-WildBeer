@@ -7,13 +7,17 @@ section {
 
 /*CSS NAVBAR THOMAS*/
 
-.tom-nav-pipe {
-    padding-top: 8px;
-}
 
 .tom-white-text {
     color: white;
 }
+
+.tom-icon {
+  width: 10%;
+  height: auto;
+}
+
+
 
 @media only screen and (max-width: 800px) {
     .tom-invisible {
