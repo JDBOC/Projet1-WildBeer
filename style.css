@@ -1,14 +1,10 @@
 /*CSS GENERAL*/
 
-section {
-    margin-bottom: 15px;
-}
-
 
 /*CSS NAVBAR THOMAS*/
 
 .tom-white-text {
-    color: white;
+    color: #fff;
 }
 
 .tom-icon {
@@ -37,7 +33,7 @@ section {
     color: orangered;
     font-size: 4rem;
     bottom: 40%;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px #000;
     font-weight: bold;
 }
 
@@ -45,8 +41,27 @@ section {
     color: orangered;
     font-size: 4rem;
     bottom: 55%;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px #000;
     font-weight: bold;
+}
+
+.kev-card {
+    border: 5px solid gold;
+    border-bottom: 15px solid gold;
+    flex-direction: row;
+}
+
+.kev-card2 {
+    border-bottom: 10px solid gold;
+}
+
+.kev-card3 {
+    border: 3px solid black;
+}
+
+.kev-card4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 
@@ -56,6 +71,14 @@ section {
     background-color: #ffc107;
 }
 
+#categories .jmCatTitle {
+    margin-left: 25%;
+}
+
+#categories .card:hover .jmCatTitle {
+    display: none;
+}
+
 #categories .card p {
     display: none;
     font-weight: bold;
@@ -63,7 +86,7 @@ section {
 
 #categories .catFlagImg {
     position: absolute;
-    border: solid 2px black;
+    border: solid 2px #000;
     top: 4px;
     left: 4px;
     height: 30%;
@@ -71,7 +94,7 @@ section {
 
 #categories .card:hover p {
     display: contents;
-    background-color: white;
+    background-color: #fff;
 }
 
 #categories .card:hover .catFlagImg {
@@ -106,6 +129,19 @@ section {
 
 
 /*CSS TOP VENTES QUENTIN*/
+
+.backgound-top-vente {
+    background-color: #000;
+}
+
+#topVente h3 {
+    color: #fff;
+    padding-top: 15px;
+}
+
+#topVente .card-deck {
+    padding-bottom: 20px;
+}
 
 
 /*CSS FOOTER NOEL*/
@@ -165,8 +201,3 @@ section {
     position: relative;
     z-index: 999;
 }
-
-
-/*.video {
-    display: none;
-}*/
