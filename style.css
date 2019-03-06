@@ -59,6 +59,14 @@ section {
     background-color: #ffc107;
 }
 
+#categories .jmCatTitle{
+    margin-left: 25%;
+}
+
+#categories .card:hover .jmCatTitle{
+    margin-left: 0px;
+}
+
 #categories .card p {
     display: none;
     font-weight: bold;
