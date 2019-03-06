@@ -51,8 +51,22 @@ section {
     text-shadow: 5px 5px 5px black;
     font-weight: bold;
 }
+.kev-card {
+    border: 5px solid gold;
+    border-bottom: 15px solid gold;
+    flex-direction: row;
+}
+.kev-card2 {
+    border-bottom: 10px solid gold;
+}
+.kev-card3 {
+    border: 3px solid black;
+}
+.kev-card4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 
-
+}
 /*CSS CATEGORIES JEAN MICHEL */
 
 #categories {
