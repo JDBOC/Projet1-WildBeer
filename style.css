@@ -32,15 +32,8 @@ section {
 /*CSS CAROUSSEL KEVIN*/
 
 .kev-carousel-item {
-<<<<<<< HEAD
-  
   width: 100%;
   height: 35rem;
-=======
-    height: 25rem;
-    width: 100%;
-    height: 35rem;
->>>>>>> dev
 }
 
 .kev-carousel-caption {
