@@ -1,16 +1,12 @@
 /*CSS GENERAL*/
 
-section {
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
 
 
 /*CSS NAVBAR THOMAS*/
 
 
 .tom-white-text {
-    color: white;
+    color: #fff;
 }
 
 .tom-icon {
@@ -41,7 +37,7 @@ section {
     color: orangered;
     font-size: 4rem;
     bottom: 40%;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px #000;
     font-weight: bold;
 }
 
@@ -49,7 +45,7 @@ section {
     color: orangered;
     font-size: 4rem;
     bottom: 55%;
-    text-shadow: 5px 5px 5px black;
+    text-shadow: 5px 5px 5px #000;
     font-weight: bold;
 }
 
@@ -75,7 +71,7 @@ section {
 
 #categories .catFlagImg {
     position: absolute;
-    border: solid 2px black;
+    border: solid 2px #000;
     top: 4px;
     left: 4px;
     height: 30%;
@@ -83,7 +79,7 @@ section {
 
 #categories .card:hover p {
     display: contents;
-    background-color: white;
+    background-color: #fff;
 }
 
 #categories .card:hover .catFlagImg {
@@ -120,6 +116,16 @@ section {
 
 /*CSS TOP VENTES QUENTIN*/
 
+.backgound-top-vente{
+  background-color: #000;
+}
+#topVente h3{
+  color: #fff;
+  padding-top: 15px;
+}
+#topVente .card-deck{
+  padding-bottom: 20px;
+}
 
 /*CSS FOOTER NOEL*/
 .logofooter{
