@@ -1,5 +1,20 @@
 /*CSS GENERAL*/
 
+h2{
+    font-family: 'Abril Fatface';
+}
+h3{
+    font-family: 'Abril Fatface';
+}
+h4{
+    font-family: 'Abril Fatface';
+}
+h5{
+    font-family: 'Abril Fatface';
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
 
 /*CSS NAVBAR THOMAS*/
 
@@ -30,7 +45,7 @@
 }
 
 .kev-carousel-caption {
-    color: orangered;
+    color: #ffd400;
     font-size: 4rem;
     bottom: 40%;
     text-shadow: 5px 5px 5px #000;
@@ -38,7 +53,7 @@
 }
 
 .khtopic {
-    color: orangered;
+    color: #ffd400;
     font-size: 4rem;
     bottom: 55%;
     text-shadow: 5px 5px 5px #000;
@@ -68,7 +83,7 @@
 /*CSS CATEGORIES JEAN MICHEL */
 
 #categories {
-    background-color: #ffc107;
+    background-color: #ffd400;
 }
 
 #categories .jmCatTitle {
