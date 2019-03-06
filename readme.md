@@ -11,9 +11,8 @@ Version Actuel du master : V 0.1 :
     CATEGORIES : Jean Michel
     About Us : Jean Daniel
     Top VENTES : Quentin
-  Partie HTML a intégrée:
     Footer : Noel
 
     Objectifs :
       Validation d'un style CSS (fonts, couleurs, margin....)
-      Vérifier la structure Html de chaque section (bonne utilisation des balises, bonne agencement des sections)
+      Vérifier la structure Html de chaque section (bonne utilisation des balises, bonne agencement des sections
