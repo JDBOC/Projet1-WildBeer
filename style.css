@@ -7,13 +7,17 @@ section {
 
 /*CSS NAVBAR THOMAS*/
 
-.tom-nav-pipe {
-    padding-top: 8px;
-}
 
 .tom-white-text {
     color: white;
 }
+
+.tom-icon {
+  width: 10%;
+  height: auto;
+}
+
+
 
 @media only screen and (max-width: 800px) {
     .tom-invisible {
@@ -28,9 +32,8 @@ section {
 /*CSS CAROUSSEL KEVIN*/
 
 .kev-carousel-item {
-    height: 25rem;
-    width: 100%;
-    height: 35rem;
+  width: 100%;
+  height: 35rem;
 }
 
 .kev-carousel-caption {
