@@ -167,6 +167,17 @@ p{
   background-color: #f9b233;
 }
 
+.policefooter{
+    font-size: 2vw;
+}
+
+.taillepolicefooter{
+    font-size: 0.5vw;
+}
+
+.iconefooter{
+    font-size: 300%;
+}
 
 /* CSS DES CATEGORIES*/
 
