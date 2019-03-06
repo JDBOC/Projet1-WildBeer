@@ -61,7 +61,7 @@
 }
 
 #categories .card:hover .jmCatTitle{
-    margin-left: 0px;
+    display: none; 
 }
 
 #categories .card p {
