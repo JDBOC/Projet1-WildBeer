@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="../style.css">
+  <title>Wild Beer!</title>
+</head>
+
+<body>
+  <!-- NAVBAR Thomas -->
+<br><br>
+  <div class="container">
+    <div class="row d-flex justify-content-around">
+          <!-- DEBUT CARTE-->
+      <div class="card custom-card col-12 col-lg-3 card-product-category">
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-6 col-6">
+            <img class="card-img-top" data-toggle="modal" data-target="#myModal" src="../img/thomas/Kostritzer.png" alt="Card image">
+    <!-- il faut rajouter dans l'image  data-toggle="modal" data-target="#myModal"
+        Afin qu'un clique sur cette dernière ouvre le popup -->
+          </div>
+          <div class="col-lg-12 col-md-12 col-sm-6 col-6">
+            <div class="card-body black-card d-flex flex-column justify-content-center align-middle">
+              <h4 class="card-title text2 text-center font-text">Köstritzer</h4>
+              <div class="text text-center">
+              </div>
+              <p class="text-success font-weight-bold text-center">7€</p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+            <button type="button" name="button" class="btn btn-warning center-block mb-3"> Ajouter au Panier !</button>
+          </div>
+        </div>
+      </div>
+          <!--FIN CARTE -->
+    </div>
+    <!-- DEBUT partie popup  -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+          <div class="modal-header bg-dark text-light">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                  <!-- TITRE DU POPUP  -->
+                  <h4 class="modal-title">Köstritzer</h4>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                  <!--  BOUTON CROIX FERMETURE -->
+                  <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-body">
+            <!-- CORPS DU POP UP  -->
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                  <!--  IMAGE DANS LE POPUP -->
+                  <img class="card-img-top" src="../img/thomas/Kostritzer.png" alt="Card image">
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                  <div class="row">
+                    <table class="table table-borderless">
+                      <tr>
+                        <td class="align-middle font-weight-bold">Note</td>
+                        <td>
+                        <table class="table table-bordered">     <!-- TABLEAU GOUT/SOIF  -->
+                            <tr>
+                              <td>Gout</td>
+                              <td>Soif</td>
+                              <td>Amertume</td>
+                            </tr>
+                            <tr>
+                              <td>2/5</td>
+                              <td>1.5/2</td>
+                              <td>0/2</td>
+                            </tr>
+                          </table>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Alcool/volume</td>
+                        <td>3.8%</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Fermentation</td>
+                        <td>Basse</td>
+                      </tr>
+                    </table>
+                  </div>
+                  <div class="row">     <!-- BOUTON RESEAU SOCIAUX  -->
+                    <button class="btn"><i class="fa fa-twitter"></i></button>
+                    <button class="btn"><i class="fa fa-facebook"></i></button>
+                    <button class="btn"><i class="fa fa-google-plus"></i></button>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                  <br><br>
+                  <table class="table">    <!--TABLEAU PRIX   -->
+                    <tr>
+                      <td class="font-weight-bold">Unité</td>
+                      <td>7€</td>
+                    </tr>
+                    <tr>
+                      <td class="font-weight-bold">Caisse (x6)</td>
+                      <td>30 €</td>
+                    </tr>
+                    <tr>
+                      <td class="font-weight-bold">Fut</td>
+                      <td>100€</td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FIN partie popup  -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>
