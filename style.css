@@ -117,12 +117,6 @@
     height: auto;
 }
 
-#aboutUs {
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-top: 2rem;
-}
-
 .jd-card-title {
     text-align: center;
 }
@@ -177,6 +171,10 @@
     width: 100%;
     opacity: 0.5;
     z-index: 1;
+}
+
+.jd-padding {
+    padding: 0% !important;
 }
 
 @media (pointer: coarse) and (hover: none) {}
