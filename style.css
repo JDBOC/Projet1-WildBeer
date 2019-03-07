@@ -17,7 +17,9 @@ h5{
 p{
   font-family: 'Roboto', sans-serif;
 }
-
+a {
+    font-family: 'Abril Fatface';
+}
 /*CSS NAVBAR THOMAS*/
 
 .tom-white-text {
@@ -44,14 +46,17 @@ p{
 .img-opacity{
   opacity: 0.65;
 }
-
+.k-logo {
+    
+    height: 3.5rem;
+}
 .kev-carousel-item {
     width: 100%;
     -moz-box-shadow: 10px 15px 5px 5px #343434;
--webkit-box-shadow: 10px 15px 5px 5px #343434;
--o-box-shadow: 10px 15px 5px 5px #343434;
-box-shadow: 10px 15px 5px 5px #343434;
-filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, Strength=5);
+    -webkit-box-shadow: 10px 15px 5px 5px #343434;
+    -o-box-shadow: 10px 15px 5px 5px #343434;
+    box-shadow: 10px 15px 5px 5px #343434;
+
     
 }
 .k-cat {
@@ -95,7 +100,7 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
 }
 
 .kev-card2 {
-    border-bottom: 10px solid #f9b233;
+    border-bottom: 5px solid #f9b233;
     
 }
 
@@ -114,6 +119,7 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
 }
 .kev-card6 {
     color: #f9b233;
+    font-size: 1.2rem;
 }
 
 
