@@ -48,7 +48,8 @@ a {
 }
 .k-logo {
     
-    height: 3.5rem;
+    margin-right: .5rem;
+    height: 2.5rem;
 }
 .kev-carousel-item {
     width: 100%;
@@ -59,6 +60,7 @@ a {
 
     
 }
+
 .k-cat {
     background-image: url("http://wallpaperswide.com/download/the_infinity_of_china-wallpaper-5120x3200.jpg");
 }
@@ -98,14 +100,16 @@ a {
     box-shadow: 10px 10px 5px black;
     
 }
-
+.k-bg {
+    background-image: url("/home/vnk/wcs/quetes/Projet/Projet-Wild-Beer/asset/img/kevin/back-pop.jpg");
+}
 .kev-card2 {
     border-bottom: 5px solid #f9b233;
     
 }
 
 .kev-card3 {
-    border: 3px solid gr;
+    border: 3px solid black;
 
 }
 
@@ -120,6 +124,8 @@ a {
 .kev-card6 {
     color: #f9b233;
     font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
 }
 
 
