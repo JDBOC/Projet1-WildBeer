@@ -55,7 +55,9 @@ box-shadow: 10px 15px 5px 5px #343434;
 filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, Strength=5);
 
 }
-
+.k-cat {
+    background-image: url("http://wallpaperswide.com/download/the_infinity_of_china-wallpaper-5120x3200.jpg");
+}
 .kev-carousel-caption {
     color: #f9b233;
     font-size: 2.5rem;
@@ -80,16 +82,17 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
     font-size: 2.5rem;
     text-shadow: 5px 5px 5px #000;
 }
+.kh-text3 {
+    font-size: 2rem;
+    text-shadow: 2px 2px 5px #f9b233;
+}
 .kev-card {
     border: 5px solid #f9b233;
     border-bottom: 15px solid #f9b233;
     flex-direction: row;
-    text-shadow: 2px 2px 2px #f9b233;
-    -moz-box-shadow: 10px 10px 5px 0px #343434;
-    -webkit-box-shadow: 10px 10px 5px 0px #343434;
-    -o-box-shadow: 10px 10px 5px 0px #343434;
-    box-shadow: 10px 10px 5px 0px #343434;
-    filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=134, Strength=5);
+    text-shadow: 2px 1px 2px #f9b233;
+    box-shadow: 10px 10px 5px black;
+    
 }
 
 .kev-card2 {
@@ -98,7 +101,8 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
 }
 
 .kev-card3 {
-    border: 3px solid black;
+    border: 3px solid gr;
+
 }
 
 .kev-card4 {
