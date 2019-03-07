@@ -8,6 +8,7 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="../style.css">
   <!-- IF FA DOES NOT WORK USE THIS :
@@ -74,7 +75,7 @@
                   <div class="card custom-card col-12 col-lg-6 offset-lg-3 col-md-6 offset-md-3 card-product-category">
                     <div class="row">
                       <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                        <img class="card-img-top" src="../asset/img/thomas/Celebrator.png" alt="Card image">
+                        <img class="card-img-top" data-toggle="modal" data-target="#Celebrator" src="../asset/img/thomas/Celebrator.png" alt="Card image">
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                         <div class="card-body black-card d-flex flex-column justify-content-center">
@@ -82,7 +83,7 @@
                           <div class="text text-center">
                             <p class="card-text font-text">Nez de caramel dur. Bel équilibre du corps et de l’esprit. Une finale pruneau-caramel-alcool qui dure un peu et qui fait de cette bière un truc doux, équilibré, sympa, sans violence.</p>
                           </div>
-                          <p class="text-success font-weight-bold text-center">Prix</p>
+                          <p class="text-success font-weight-bold text-center">5€</p>
                           <button type="button" name="button" class="btn btn-warning center-block mb-3"> Ajouter au Panier !</button>
                         </div>
                       </div>
@@ -99,7 +100,7 @@
                   <div class="card custom-card col-12 col-lg-6 offset-lg-3 col-md-6 offset-md-3 card-product-category">
                     <div class="row">
                       <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                        <img class="card-img-top img-fluid" src="../asset/img/thomas/Berliner_Kindl.png" alt="Card image">
+                        <img class="card-img-top img-fluid" data-toggle="modal" data-target="#Berliner_Kindl"  src="../asset/img/thomas/Berliner_Kindl.png" alt="Card image">
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                         <div class="card-body black-card d-flex flex-column justify-content-center">
@@ -124,7 +125,7 @@
                   <div class="card custom-card col-12 col-lg-6 offset-lg-3 col-md-6 offset-md-3 card-product-category">
                     <div class="row">
                       <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                        <img class="card-img-top" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
+                        <img class="card-img-top" data-toggle="modal" data-target="#Kostritzer" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                         <div class="card-body black-card d-flex flex-column justify-content-center">
@@ -154,9 +155,14 @@
       </div>
     </section>
 
-    <!--
 
--->
+    <!-- TODO: remplacer col-lg-12 col-md-12 col-sm-6 col-6 par col-lg-12 col-md-12 col-sm-6 col-12 dans les card
+    des autres -
+    remplacer  <table class="table table-borderless"> par <table class="table table-borderless table-responsive">
+
+    -->
+
+
 
 
     <section id="nosProduits">
@@ -168,12 +174,12 @@
           <!-- carte 1 debut-->
           <div class="card custom-card col-12 col-lg-3 card-product-category">
             <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
                 <img class="card-img-top" data-toggle="modal" data-target="#Kostritzer" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
                 <!-- il faut rajouter dans l'image  data-toggle="modal" data-target="#myModal"
             Afin qu'un clique sur cette dernière ouvre le popup -->
               </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
                 <div class="card-body black-card d-flex flex-column justify-content-center align-middle">
                   <h4 class="card-title text2 text-center font-text">Köstritzer</h4>
                   <div class="text text-center">
@@ -194,10 +200,10 @@
           <!-- carte 2 debut-->
           <div class="card custom-card col-12 col-lg-3 card-product-category">
             <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/Methusalem.png" alt="Card image">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <img class="card-img-top" data-toggle="modal" data-target="#Methusalem" src="../asset/img/thomas/Methusalem.png" alt="Card image">
               </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
                 <div class="card-body black-card d-flex flex-column justify-content-center">
                   <h4 class="card-title text2 text-center font-text">Methusalem</h4>
                   <div class="text text-center collapse-group">
@@ -218,10 +224,10 @@
           <!-- carte 3 debut-->
           <div class="card custom-card col-12 col-lg-3 card-product-category">
             <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
                 <img class="card-img-top" data-toggle="modal" data-target="#Bitburger_Premium_Pils" src="../asset/img/thomas/Bitburger_Premium_Pils.png" alt="Card image">
               </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
                 <div class="card-body black-card d-flex flex-column justify-content-center">
                   <h4 class="card-title text2 text-center font-text">Bitburger Premium Pils</h4>
                   <div class="text text-center collapse-group">
@@ -268,7 +274,7 @@
                       </div>
                       <div class="col-lg-8 col-md-8 col-sm-8 col-8">
                         <div class="row">
-                          <table class="table table-borderless">
+                          <table class="table table-borderless table-responsive">
                             <tr>
                               <td class="align-middle font-weight-bold">Note</td>
                               <td>
@@ -316,7 +322,7 @@
                           </tr>
                           <tr>
                             <td class="font-weight-bold">Caisse (x6)</td>
-                            <td>30 €</td>
+                            <td>30€</td>
                           </tr>
                           <tr>
                             <td class="font-weight-bold">Fut</td>
@@ -330,7 +336,7 @@
               </div>
             </div>
           </div>
-          <div id="Kostritzer" class="modal fade" role="dialog">
+          <div id="Methusalem" class="modal fade" role="dialog">
             <div class="modal-dialog modal-lg">
               <div class="modal-content">
                 <div class="modal-header bg-dark text-light">
@@ -338,7 +344,7 @@
                     <div class="row">
                       <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                         <!-- TITRE DU POPUP  -->
-                        <h4 class="modal-title">Köstritzer</h4>
+                        <h4 class="modal-title">Methusalem</h4>
                       </div>
                       <div class="col-lg-6 col-md-6 col-sm-6 col-6">
                         <!--  BOUTON CROIX FERMETURE -->
@@ -353,11 +359,11 @@
                     <div class="row">
                       <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <!--  IMAGE DANS LE POPUP -->
-                        <img class="card-img-top" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
+                        <img class="card-img-top" src="../asset/img/thomas/Methusalem.png" alt="Card image">
                       </div>
                       <div class="col-lg-8 col-md-8 col-sm-8 col-8">
                         <div class="row">
-                          <table class="table table-borderless">
+                          <table class="table table-borderless table-responsive">
                             <tr>
                               <td class="align-middle font-weight-bold">Note</td>
                               <td>
@@ -369,20 +375,20 @@
                                     <td>Amertume</td>
                                   </tr>
                                   <tr>
-                                    <td>2/5</td>
-                                    <td>1.5/2</td>
+                                    <td>4.5/5</td>
                                     <td>0/2</td>
+                                    <td>1/2</td>
                                   </tr>
                                 </table>
                               </td>
                             </tr>
                             <tr>
                               <td class="font-weight-bold">Alcool/volume</td>
-                              <td>3.8%</td>
+                              <td>10%</td>
                             </tr>
                             <tr>
                               <td class="font-weight-bold">Fermentation</td>
-                              <td>Basse</td>
+                              <td>Haute</td>
                             </tr>
                           </table>
                         </div>
@@ -401,15 +407,15 @@
                           <!--TABLEAU PRIX   -->
                           <tr>
                             <td class="font-weight-bold">Unité</td>
-                            <td>7€</td>
+                            <td>4€</td>
                           </tr>
                           <tr>
                             <td class="font-weight-bold">Caisse (x6)</td>
-                            <td>30 €</td>
+                            <td>24€</td>
                           </tr>
                           <tr>
                             <td class="font-weight-bold">Fut</td>
-                            <td>100€</td>
+                            <td>70€</td>
                           </tr>
                         </table>
                       </div>
@@ -442,11 +448,794 @@
                     <div class="row">
                       <div class="col-lg-4 col-md-4 col-sm-4 col-4">
                         <!--  IMAGE DANS LE POPUP -->
-                        <img class="card-img-top" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
+                        <img class="card-img-top" src="../asset/img/thomas/Bitburger_Premium_Pils.png" alt="Card image">
                       </div>
                       <div class="col-lg-8 col-md-8 col-sm-8 col-8">
                         <div class="row">
-                          <table class="table table-borderless">
+                          <table class="table table-borderless table-responsive">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>1.5/5</td>
+                                    <td>2/2</td>
+                                    <td>1/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>4.8%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Basse</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>6€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>27€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>90€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Berliner_Kindl" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Berliner Kindl</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Berliner_Kindl.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless table-responsive">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>3/5</td>
+                                    <td>2/2</td>
+                                    <td>1/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>4.8%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Haute</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>5€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>25€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>80€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FIN partie popup  -->
+
+
+        </div>
+        <div class="row d-flex justify-content-around">
+          <!-- carte 4 debut-->
+          <div class="card custom-card col-12 col-lg-3 card-product-category">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <img class="card-img-top" data-toggle="modal" data-target="#Abraxxxas" src="../asset/img/thomas/Abraxxxas.png" alt="Card image">
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <div class="card-body black-card d-flex flex-column justify-content-center">
+                  <h4 class="card-title text2 text-center font-text">Abraxxxas</h4>
+                  <div class="text text-center collapse-group">
+                    <p class="card-text font-text">Un peu cidré, fin, gourmet, équilibré. Une acidité légère, un côté malté. Le tout est agréable, <span class="collapse" id="viewdetails3">rafraichissant, original et expressif. </span> <a data-toggle="collapse"
+                        data-target="#viewdetails3"> ...</a></p>
+                  </div>
+                  <p class="text-success font-weight-bold text-center">8€</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouters au Panier !</button>
+              </div>
+
+            </div>
+          </div>
+          <!-- carte 4 fin-->
+          <!-- carte 5 debut-->
+          <div class="card custom-card col-12 col-lg-3 card-product-category">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <img class="card-img-top" data-toggle="modal" data-target="#Caulfield" src="../asset/img/thomas/Caulfield.png" alt="Card image">
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <div class="card-body black-card d-flex flex-column justify-content-center">
+                  <h4 class="card-title text2 text-center font-text">Caulfield</h4>
+                  <div class="text text-center collapse-group">
+                    <p class="card-text font-text">La belle brune bien torréfiée. Une bouche liquoreuse qui finit sur un équilibre caféiné et doux.</p>
+                  </div>
+                  <p class="text-success font-weight-bold text-center">12€</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
+              </div>
+
+            </div>
+          </div>
+          <!-- carte 5 fin-->
+          <!-- carte 6 debut-->
+          <div class="card custom-card col-12 col-lg-3 card-product-category">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <img class="card-img-top" data-toggle="modal" data-target="#Celebrator" src="../asset/img/thomas/Celebrator.png" alt="Card image">
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <div class="card-body black-card d-flex flex-column justify-content-center">
+                  <h4 class="card-title text2 text-center font-text">Celebrator</h4>
+                  <div class="text text-center collapse-group">
+                    <p class="card-text font-text">Nez de caramel dur. Bel équilibre du corps et de l’esprit. Une finale pruneau-caramel-alcool <span class="collapse" id="viewdetails4"> qui dure un peu et qui fait de cette bière un truc doux,
+                        équilibré, sympa, sans violence.</span> <a data-toggle="collapse" data-target="#viewdetails4"> ...</a></p>
+                  </div>
+                  <p class="text-success font-weight-bold text-center">5€</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
+              </div>
+
+            </div>
+          </div>
+          <!-- carte 6 fin-->
+          <!-- DEBUT partie popup  -->
+          <div id="Abraxxxas" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Abraxxxas</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Abraxxxas.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless table-responsive">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>3/5</td>
+                                    <td>2/2</td>
+                                    <td>0.5/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>6%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Haute</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>8€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>35€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>110€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Caulfield" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Caulfield</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Caulfield.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless table-responsive">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>4.5/5</td>
+                                    <td>0/2</td>
+                                    <td>0.5/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>10%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Haute</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>12€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>40€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>125€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Celebrator" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Celebrator</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Celebrator.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless table-responsive">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>3.5/5</td>
+                                    <td>0.5/2</td>
+                                    <td>0/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>6.7%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Basse</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>5€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>18€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>62€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FIN partie popup  -->
+
+        </div>
+        <div class="row d-flex justify-content-around">
+          <!-- carte 7 debut-->
+          <div class="card custom-card col-12 col-lg-3 card-product-category">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <img class="card-img-top"  data-toggle="modal" data-target="#Paulaner_Hefe_Weissbier"src="../asset/img/thomas/Paulaner_Hefe_Weissbier.png" alt="Card image">
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <div class="card-body black-card d-flex flex-column justify-content-center">
+                  <h4 class="card-title text2 text-center font-text">Hefe-Weissbier</h4>
+                  <div class="text text-center collapse-group">
+                    <p class="card-text font-text"> Elle passe toute seule. Un goût de blanche avec une petite entrée en bouche changeante en bonus</p>
+                  </div>
+                  <p class="text-success font-weight-bold text-center">5€</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
+              </div>
+
+            </div>
+          </div>
+          <!-- carte 7 fin-->
+          <!-- carte 8 debut-->
+          <div class="card custom-card col-12 col-lg-3 card-product-category">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <img class="card-img-top" data-toggle="modal" data-target="#Tannen_Zapfle" src="../asset/img/thomas/Tannen_Zapfle.png" alt="Card image">
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <div class="card-body black-card d-flex flex-column justify-content-center">
+                  <h4 class="card-title text2 text-center font-text tom-img-beer">Tannen Zäpfle</h4>
+                  <div class="text text-center collapse-group">
+                    <p class="card-text font-text">Une blonde couleur pâle. Il ne nous reste quand même, un peu d’amertume.</p>
+                  </div>
+                  <p class="text-success font-weight-bold text-center">9€</p>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
+              </div>
+
+            </div>
+          </div>
+          <!-- carte 8 fin-->
+          <!-- carte 9 debut-->
+          <div class="card custom-card col-12 col-lg-3 card-product-category ">
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <img class="card-img-top" data-toggle="modal" data-target="#St_Erhard" src="../asset/img/thomas/St_Erhard.png" alt="Card image">
+              </div>
+              <div class="col-lg-12 col-md-12 col-sm-6 col-12">
+                <div class="card-body black-card d-flex flex-column justify-content-center">
+                  <h4 class="card-title text2 text-center font-text">St Erhard</h4>
+                  <div class="text text-center collapse-group">
+                    <p class="card-text font-text">Limpide, d’un ambré cognac. Le goût est sur un pur malt. Rondeurs et sécheresse.<span class="collapse" id="viewdetails7"> C’est la simplicité qui frôle avec le malt.</span> <a data-toggle="collapse"
+                        data-target="#viewdetails7"> ...</a></p>
+                  </div>
+                  <p class="text-success font-weight-bold text-center">7€</p>
+
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
+                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
+              </div>
+            </div>
+          </div>
+          <!-- carte 9 fin-->
+          <!-- DEBUT partie popup  -->
+          <div id="Paulaner_Hefe_Weissbier" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Paulaner Hefe Weissbier</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Paulaner_Hefe_Weissbier.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless table-responsive">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>1.5/5</td>
+                                    <td>2/2</td>
+                                    <td>0/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>5%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Haut</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>5€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>24€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>87€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Tannen_Zapfle" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Tannen Zapfle</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Tannen_Zapfle.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless table-responsive">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>1.5/5</td>
+                                    <td>1.5/2</td>
+                                    <td>1.5/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>5.1%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Basse</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>9€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>40€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>130€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="St_Erhard" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">St Erhard</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/St_Erhard.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless table-responsive">
                             <tr>
                               <td class="align-middle font-weight-bold">Note</td>
                               <td>
@@ -459,7 +1248,7 @@
                                   </tr>
                                   <tr>
                                     <td>2/5</td>
-                                    <td>1.5/2</td>
+                                    <td>1/2</td>
                                     <td>0/2</td>
                                   </tr>
                                 </table>
@@ -467,7 +1256,7 @@
                             </tr>
                             <tr>
                               <td class="font-weight-bold">Alcool/volume</td>
-                              <td>3.8%</td>
+                              <td>5%</td>
                             </tr>
                             <tr>
                               <td class="font-weight-bold">Fermentation</td>
@@ -498,7 +1287,7 @@
                           </tr>
                           <tr>
                             <td class="font-weight-bold">Fut</td>
-                            <td>100€</td>
+                            <td>105€</td>
                           </tr>
                         </table>
                       </div>
@@ -511,146 +1300,6 @@
 
           <!-- FIN partie popup  -->
 
-
-        </div>
-        <div class="row d-flex justify-content-around">
-          <div class="card custom-card col-12 col-lg-3 card-product-category">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/Abraxxxas.png" alt="Card image">
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <div class="card-body black-card d-flex flex-column justify-content-center">
-                  <h4 class="card-title text2 text-center font-text">Abraxxxas</h4>
-                  <div class="text text-center collapse-group">
-                    <p class="card-text font-text">Un peu cidré, fin, gourmet, équilibré. Une acidité légère, un côté malté. Le tout est agréable, <span class="collapse" id="viewdetails3">rafraichissant, original et expressif. </span> <a data-toggle="collapse"
-                        data-target="#viewdetails3"> ...</a></p>
-                  </div>
-                  <p class="text-success font-weight-bold text-center">8€</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
-              </div>
-
-            </div>
-          </div>
-          <div class="card custom-card col-12 col-lg-3 card-product-category">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/Caulfield.png" alt="Card image">
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <div class="card-body black-card d-flex flex-column justify-content-center">
-                  <h4 class="card-title text2 text-center font-text">Caulfield</h4>
-                  <div class="text text-center collapse-group">
-                    <p class="card-text font-text">La belle brune bien torréfiée. Une bouche liquoreuse qui finit sur un équilibre caféiné et doux.</p>
-                  </div>
-                  <p class="text-success font-weight-bold text-center">12€</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
-              </div>
-
-            </div>
-          </div>
-          <div class="card custom-card col-12 col-lg-3 card-product-category">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/Celebrator.png" alt="Card image">
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <div class="card-body black-card d-flex flex-column justify-content-center">
-                  <h4 class="card-title text2 text-center font-text">Celebrator</h4>
-                  <div class="text text-center collapse-group">
-                    <p class="card-text font-text">Nez de caramel dur. Bel équilibre du corps et de l’esprit. Une finale pruneau-caramel-alcool <span class="collapse" id="viewdetails4"> qui dure un peu et qui fait de cette bière un truc doux,
-                        équilibré, sympa, sans violence.</span> <a data-toggle="collapse" data-target="#viewdetails4"> ...</a></p>
-                  </div>
-                  <p class="text-success font-weight-bold text-center">Prix</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
-              </div>
-
-            </div>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-around">
-          <div class="card custom-card col-12 col-lg-3 card-product-category">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/Paulaner_Hefe_Weissbier.png" alt="Card image">
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <div class="card-body black-card d-flex flex-column justify-content-center">
-                  <h4 class="card-title text2 text-center font-text">Hefe-Weissbier</h4>
-                  <div class="text text-center collapse-group">
-                    <p class="card-text font-text"> Elle passe toute seule. Un goût de blanche avec une petite entrée en bouche changeante en bonus</p>
-                  </div>
-                  <p class="text-success font-weight-bold text-center">5€</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
-              </div>
-
-            </div>
-          </div>
-          <div class="card custom-card col-12 col-lg-3 card-product-category">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/Tannen_Zapfle.png" alt="Card image">
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <div class="card-body black-card d-flex flex-column justify-content-center">
-                  <h4 class="card-title text2 text-center font-text tom-img-beer">Tannen Zäpfle</h4>
-                  <div class="text text-center collapse-group">
-                    <p class="card-text font-text">Une blonde couleur pâle. Il ne nous reste quand même, un peu d’amertume.</p>
-                  </div>
-                  <p class="text-success font-weight-bold text-center">9€</p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
-              </div>
-
-            </div>
-          </div>
-          <div class="card custom-card col-12 col-lg-3 card-product-category d-flex justify-content-center">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/St_Erhard.png" alt="Card image">
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <div class="card-body black-card d-flex flex-column justify-content-center">
-                  <h4 class="card-title text2 text-center font-text">St Erhard</h4>
-                  <div class="text text-center collapse-group">
-                    <p class="card-text font-text">Limpide, d’un ambré cognac. Le goût est sur un pur malt. Rondeurs et sécheresse.<span class="collapse" id="viewdetails7"> C’est la simplicité qui frôle avec le malt.</span> <a data-toggle="collapse"
-                        data-target="#viewdetails7"> ...</a></p>
-                  </div>
-                  <p class="text-success font-weight-bold text-center">7€</p>
-
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
-                <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
   </div>
@@ -661,60 +1310,121 @@
   <!--FOOTER Noel -->
   <footer>
     <div class="container-fluid bg-dark text-light">
-      <div class="row">
-        <div class="col-lg-2 offset-lg-2">
-          Home
+      <div class="row justify-content-center back-footer">
+        <div class="col-lg-6 col-12">
+          <div class="row">
+            <div class="col-3 text-center">
+              <p class="font-weight-bold">REJOIGNER NOUS SUR:</p>
+            </div>
+            <div class="col-1 offset-1 text-center">
+              <i class="fab fa-facebook-f fa-2x" style="color: white;"></i>
+            </div>
+            <div class="col-1 text-center">
+              <i class="fab fa-twitter fa-2x" style="color: white;"></i>
+            </div>
+            <div class="col-1 text-center">
+              <i class="fab fa-instagram fa-2x" style="color: white;"></i>
+            </div>
+          </div>
         </div>
-        <div class="col-lg-2">
-          About us
-        </div>
-        <div class="col-lg-2">
-          Top setting
-        </div>
-        <div class="col-lg-2">
-          Contact
-        </div>
-        <div class="col-lg-2">
-          Legal mentions
+        <div class="col-lg-6 col-12">
+          <div class="row">
+            <div class="col-3 text-center">
+              <p class="font-weight-bold">APPLI MOBILE:</p>
+            </div>
+            <div class="col-1 offset-1 text-center">
+              <i class="fab fa-apple fa-2x" style="color: white;"></i>
+            </div>
+            <div class="col-1 text-center">
+              <i class="fab fa-android fa-2x" style="color: white;"></i>
+            </div>
+          </div>
         </div>
       </div>
-      <br>
-      <div>
-        <form>
+      <div class="row">
+        <div class="col-lg-3 text-center"><br>
+          <img class="img-fluid logofooter" alt="Responsive image" src="asset/img/noel/iconeshop.png">
+        </div>
+        <div class="col-lg-4">
           <div class="form-group">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-12"><br>
+                <p>1O euros Offert pour votre premier achat profiter en !</p>
+              </div>
+              <div class="col-lg-6">
                 <label for="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-4">
                 <div class="form-group">
                   <label for="exampleFormControlTextarea1">Your message</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
                   <button class="btn btn-primary" type="submit">Submit</button>
                 </div>
               </div>
-              <div class="col-lg-4 offset-lg-1">
-                <h2>Wild bazar</h2>
-                <p>1 Rue de la paix<br>75 001 CEDEX<br>SAV 56 78</p>
-              </div>
-              <div class="col">
-                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBVthIY4OSUBOPtW-7ECwRdRYWDR3R8AvDGst_E3x9dt2EfYmK">
-              </div>
             </div>
           </div>
-        </form>
-      </div>
+        </div>
+        <div class="col-lg-3"><br>
+          <h2>Wild bazar</h2>
+          <p>1 Rue de la paix<br>75 001 CEDEX<br>SAV 56 78<br>Recrutement<br>A propos de WildBeer</p>
+        </div>
+        <div class="col-lg-2"><br>
+      <h2>Nos partenaire</h2><br>
+      <a href="https://urlz.fr/96tG"><p>Wild Code School</p></a>
+      <a href="https://urlz.fr/96tG"><p>Bière académie</p></a>
+      <a href="https://urlz.fr/96tG"><p>Maison de l'Alcool</p></a>
     </div>
-  </footer>
+        </div>
+                    <hr style="background-color: white;">
+      <div class="row mx-auto">
+        <div class="col-lg-3 col-12">
+          <i class="fab fa-fedex fa-2x" style="color: white;"></i>
+          <h4 class="font-weight-bold text-warning policefooter">Expedition rapide</h4>
+          <p>Emballage anti-casse envoyés sous 24h</p>
+        </div>
+        <div class="col-lg-3 col-12">
+          <i class="fab fa-tripadvisor fa-2x" style="color: white;"></i>
+          <h4 class="font-weight-bold text-warning policefooter">4,8/5</h4>
+          <p>Nos client nous adorent et nous leur rendons bien</p>
+        </div>
+        <div class="col-lg-3 col-12">
+          <i class="fab fa-untappd fa-2x" style="color: white;"></i>
+          <h4 class="font-weight-bold text-warning policefooter">Logo dans le thème</h4>
+          <p>...</p>
+        </div>
+        <div class="col-lg-3 col-12">
+          <i class="fab fa-dev fa-2x" style="color: white;"></i>
+          <h4 class="font-weight-bold text-warning policefooter">Tu devras</h4>
+          <p>N'est ce pas ?</p>
+        </div>
+      </div>
+      <div class="row justify-content-center iconefooter">
+        <div class="col-lg-2 col-4">
+          <i class="fab fa-cc-mastercard fa-2x" style="color: white;"></i>
+        </div>
+        <div class="col-lg-2 col-4">
+          <i class="fab fa-paypal fa-2x" style="color: white;"></i>
+        </div>
+        <div class="col-lg-2 col-4">
+          <i class="fab fa-cc-visa fa-2x" style="color: white;"></i>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12">
+          <p class="taillepolicefooter  ">(L'ABUS D'ALCOOL EST DANGEROUS POUR LA SANTÉ.)</p>
+        </div>
+      </div>
 
+      </div>
+
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+  </footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="../script.js"></script>
 </body>
 
 </html>
