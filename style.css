@@ -28,6 +28,11 @@ p{
     width: 10%;
     height: auto;
 }
+.tom-gradient{
+
+  background-image: linear-gradient(black, red, yellow);
+
+}
 
 @media only screen and (max-width: 800px) {
     .tom-invisible {
@@ -92,7 +97,7 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
     flex-direction: row;
     text-shadow: 2px 1px 2px #f9b233;
     box-shadow: 10px 10px 5px black;
-    
+
 }
 
 .kev-card2 {
