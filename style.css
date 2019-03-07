@@ -84,6 +84,13 @@ p{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+.kev-card5 {
+    border: 5px solid gold;
+    border-bottom: 15px solid gold;
+}
+.kev-card6 {
+    color: gold;
+}
 
 
 /*CSS CATEGORIES JEAN MICHEL */
