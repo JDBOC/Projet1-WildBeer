@@ -25,6 +25,9 @@ a {
 .tom-white-text {
     color: #fff;
 }
+.tom-btn{
+  float: left;
+}
 
 .tom-icon {
     width: 10%;
@@ -52,7 +55,7 @@ a {
   opacity: 0.65;
 }
 .k-logo {
-    
+
     margin-right: .5rem;
     height: 2.5rem;
 }
@@ -64,7 +67,7 @@ a {
     -o-box-shadow: 10px 15px 5px 5px #343434;
     box-shadow: 10px 15px 5px 5px #343434;
 
-    
+
 }
 
 .k-cat {
@@ -111,7 +114,7 @@ a {
 }
 .kev-card2 {
     border-bottom: 5px solid #f9b233;
-    
+
 }
 
 .kev-card3 {
