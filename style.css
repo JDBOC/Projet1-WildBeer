@@ -92,7 +92,7 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
     flex-direction: row;
     text-shadow: 2px 1px 2px #f9b233;
     box-shadow: 10px 10px 5px black;
-    
+
 }
 
 .kev-card2 {
@@ -243,7 +243,13 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
 .card-product-category {
     margin-bottom: 15px;
 }
-
+.bg-quentin{
+  background-image: url("asset/img/quentin/Bresil-lumieres-de-la-nuit.jpg");
+}
+.qbtext{
+  color: #fff;
+  text-shadow: 2px 1px 2px #f9b233;
+}
 
 /* CSS VIDEO */
 
