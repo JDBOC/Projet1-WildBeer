@@ -47,12 +47,13 @@ p{
 
 .kev-carousel-item {
     width: 100%;
+    height: 35rem;
     -moz-box-shadow: 10px 15px 5px 5px #343434;
 -webkit-box-shadow: 10px 15px 5px 5px #343434;
 -o-box-shadow: 10px 15px 5px 5px #343434;
 box-shadow: 10px 15px 5px 5px #343434;
 filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, Strength=5);
-    
+
 }
 
 .kev-carousel-caption {
@@ -73,7 +74,7 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
 .khtext {
     text-shadow: 5px 5px 5px #000;
     font-size: 1.5rem;
-    
+
 }
 .khtext2 {
     font-size: 2.5rem;
@@ -93,7 +94,7 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
 
 .kev-card2 {
     border-bottom: 10px solid #f9b233;
-    
+
 }
 
 .kev-card3 {
