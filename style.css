@@ -87,13 +87,17 @@ p{
 
 
 /*CSS CATEGORIES JEAN MICHEL */
-
-.bg-categories-home {
+#categories {
     background-image:linear-gradient(#343a40, #f9b233);
 }
 
 #categories .jmCatTitle {
     margin-left: 25%;
+    width: 80%;
+    padding-top: 7%;
+    padding-bottom: 6%;
+    margin-top: calc(-1.25rem + 4px);
+    background-color: rgb(250,250,250,0.5);
 }
 
 #categories .card:hover .jmCatTitle {
@@ -129,8 +133,6 @@ p{
 #categories .card:hover .card-img {
     opacity: 0.4;
 }
-
-
 /* CSS ABOUT US JEAN DANIEL*/
 
 .biere {
