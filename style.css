@@ -28,6 +28,13 @@ a {
 .tom-btn{
   float: left;
 }
+.tom-bg{
+  background-color:   #f9e79f  ;
+}
+.tom-image{
+  padding: 5px;
+}
+
 
 .tom-icon {
     width: 10%;
