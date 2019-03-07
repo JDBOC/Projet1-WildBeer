@@ -118,6 +118,10 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=180, St
 
 
 /*CSS CATEGORIES JEAN MICHEL */
+.jm-cat {
+    background-image: url("asset/img/jm/stonehenge.jpg");
+    background-size: cover;
+}
 #categories {
     background-image:linear-gradient(#343a40, #f9b233);
 }
