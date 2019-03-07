@@ -52,7 +52,7 @@ a {
   opacity: 0.65;
 }
 .k-logo {
-
+    
     margin-right: .5rem;
     height: 2.5rem;
 }
@@ -63,9 +63,9 @@ a {
     -webkit-box-shadow: 10px 15px 5px 5px #343434;
     -o-box-shadow: 10px 15px 5px 5px #343434;
     box-shadow: 10px 15px 5px 5px #343434;
-    padding: 0;
+    
 
-
+    
 }
 
 .k-cat {
@@ -112,7 +112,7 @@ a {
 }
 .kev-card2 {
     border-bottom: 5px solid #f9b233;
-
+    
 }
 
 .kev-card3 {
@@ -133,6 +133,10 @@ a {
     font-size: 1.2rem;
     display: flex;
     flex-direction: row;
+}
+.k-shade {
+    border-radius: 40px;
+    text-shadow: 2px 1px 2px white; 
 }
 
 
@@ -261,13 +265,7 @@ a {
 .card-product-category {
     margin-bottom: 15px;
 }
-.bg-quentin{
-  background-image: url("asset/img/quentin/Bresil-lumieres-de-la-nuit.jpg");
-}
-.qbtext{
-  color: #fff;
-  text-shadow: 2px 1px 2px #f9b233;
-}
+
 
 /* CSS VIDEO */
 
