@@ -8,9 +8,11 @@
 
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link rel="stylesheet" href="../style.css">
-
+  <!-- IF FA DOES NOT WORK USE THIS :
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ -->
   <title>Wild Beer Les Bierres allemande</title>
 </head>
 
@@ -21,8 +23,8 @@
         <nav class="navbar justify-content-around navbar-expand-xs navbar-expand-lg navbar-expand-md bg-dark border-dark">
           <!-- Links -->
           <ul class="navbar-nav flex-fill justify-content-around">
-            <li><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span
-                  class="tom-white-text"><i class="fas fa-bars fa-1x"></i></span></button></li>
+            <li><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span class="tom-white-text"><i
+                    class="fas fa-bars fa-1x"></i></span></button></li>
             <li class="nav-item tom-go-right">
               <a href="../index.html" class="navbar-brand text-light "><img class="tom-icon" src="../asset/img/thomas/iconeshop.png" alt="logo"> Wild bazard</a>
             </li>
@@ -54,7 +56,9 @@
       <h2>
         <!--LE NOM DE VOTRE CATEGORIE--> Les Bierres allemandes</h2>
       <p>
-        <!--LE TEXTE DESCRIPTIF DE VOTRE CATEGORIE-->La bière allemande trouve son origine dans le haut Moyen Âge. Depuis des siècles, la bière fait partie de la culture et de la gastronomie allemande, et le pays est constellé de Bierpalast (« palais de la bière »), de Biergarten (« jardin de la bière »), de Bierstube1 (« brasserie »), de Bierkeller (« cave à bière »), de Bierhaus (« maison de la bière ») et Bierzelt (« tente à bière ») que l'on retrouve lors des nombreuses fêtes de la bière. </p>
+        <!--LE TEXTE DESCRIPTIF DE VOTRE CATEGORIE-->La bière allemande trouve son origine dans le haut Moyen Âge. Depuis des siècles, la bière fait partie de la culture et de la gastronomie allemande, et le pays est constellé de Bierpalast («
+        palais de la bière »), de Biergarten (« jardin de la bière »), de Bierstube1 (« brasserie »), de Bierkeller (« cave à bière »), de Bierhaus (« maison de la bière ») et Bierzelt (« tente à bière ») que l'on retrouve lors des nombreuses fêtes
+        de la bière. </p>
 
     </section>
 
@@ -150,7 +154,7 @@
       </div>
     </section>
 
-    <!-- TODO: make all img the same size and png
+    <!--
 
 -->
 
@@ -165,26 +169,29 @@
           <div class="card custom-card col-12 col-lg-3 card-product-category">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
+                <img class="card-img-top" data-toggle="modal" data-target="#Kostritzer" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
+                <!-- il faut rajouter dans l'image  data-toggle="modal" data-target="#myModal"
+            Afin qu'un clique sur cette dernière ouvre le popup -->
               </div>
               <div class="col-lg-12 col-md-12 col-sm-6 col-6">
                 <div class="card-body black-card d-flex flex-column justify-content-center align-middle">
                   <h4 class="card-title text2 text-center font-text">Köstritzer</h4>
                   <div class="text text-center">
-
                     <p class="card-text font-text">Une brune au nez légèrement fumé. Peu de bulles. Des notes sucrées, un peu pruneau. Mais ça reste très rafraîchissant.</p>
+
                   </div>
                   <p class="text-success font-weight-bold text-center">7€</p>
-              </div>
+                </div>
               </div>
             </div>
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
                 <button type="button" name="button" class="btn btn-warning center-block mb-3"> Ajouter au Panier !</button>
               </div>
-<!-- carte 1 fin-->
             </div>
           </div>
+          <!-- carte 1 fin-->
+          <!-- carte 2 debut-->
           <div class="card custom-card col-12 col-lg-3 card-product-category">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-6 col-6">
@@ -207,16 +214,19 @@
 
             </div>
           </div>
+          <!-- carte 2 fin-->
+          <!-- carte 3 debut-->
           <div class="card custom-card col-12 col-lg-3 card-product-category">
             <div class="row">
               <div class="col-lg-12 col-md-12 col-sm-6 col-6">
-                <img class="card-img-top" src="../asset/img/thomas/Bitburger_Premium_Pils.png" alt="Card image">
+                <img class="card-img-top" data-toggle="modal" data-target="#Bitburger_Premium_Pils" src="../asset/img/thomas/Bitburger_Premium_Pils.png" alt="Card image">
               </div>
               <div class="col-lg-12 col-md-12 col-sm-6 col-6">
                 <div class="card-body black-card d-flex flex-column justify-content-center">
                   <h4 class="card-title text2 text-center font-text">Bitburger Premium Pils</h4>
                   <div class="text text-center collapse-group">
-                    <p class="card-text font-text">Une blonde allemande plutôt charmante pour la soif, une amertume abordable <span class="collapse" id="viewdetails2">pour les palais sensibles, les amoureux y trouveront même une certaine douceur</span> <a data-toggle="collapse" data-target="#viewdetails2"> ...</a></p>
+                    <p class="card-text font-text">Une blonde allemande plutôt charmante pour la soif, une amertume abordable <span class="collapse" id="viewdetails2">pour les palais sensibles, les amoureux y trouveront même une certaine douceur</span>
+                      <a data-toggle="collapse" data-target="#viewdetails2"> ...</a></p>
                   </div>
                   <p class="text-success font-weight-bold text-center">6€</p>
                 </div>
@@ -226,9 +236,282 @@
               <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
                 <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
               </div>
-
             </div>
           </div>
+          <!-- carte 3 fin-->
+          <!-- POPUP SECTION  -->
+          <!-- DEBUT partie popup  -->
+          <div id="Kostritzer" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Köstritzer</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>2/5</td>
+                                    <td>1.5/2</td>
+                                    <td>0/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>3.8%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Basse</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>7€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>30 €</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>100€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Kostritzer" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Köstritzer</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>2/5</td>
+                                    <td>1.5/2</td>
+                                    <td>0/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>3.8%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Basse</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>7€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>30 €</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>100€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="Bitburger_Premium_Pils" class="modal fade" role="dialog">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header bg-dark text-light">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!-- TITRE DU POPUP  -->
+                        <h4 class="modal-title">Bitburger Premium Pils</h4>
+                      </div>
+                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                        <!--  BOUTON CROIX FERMETURE -->
+                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="modal-body">
+                  <!-- CORPS DU POP UP  -->
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                        <!--  IMAGE DANS LE POPUP -->
+                        <img class="card-img-top" src="../asset/img/thomas/Kostritzer.png" alt="Card image">
+                      </div>
+                      <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                        <div class="row">
+                          <table class="table table-borderless">
+                            <tr>
+                              <td class="align-middle font-weight-bold">Note</td>
+                              <td>
+                                <table class="table table-bordered">
+                                  <!-- TABLEAU GOUT/SOIF  -->
+                                  <tr>
+                                    <td>Gout</td>
+                                    <td>Soif</td>
+                                    <td>Amertume</td>
+                                  </tr>
+                                  <tr>
+                                    <td>2/5</td>
+                                    <td>1.5/2</td>
+                                    <td>0/2</td>
+                                  </tr>
+                                </table>
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Alcool/volume</td>
+                              <td>3.8%</td>
+                            </tr>
+                            <tr>
+                              <td class="font-weight-bold">Fermentation</td>
+                              <td>Basse</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="row">
+                          <!-- BOUTON RESEAU SOCIAUX  -->
+                          <button class="btn"><i class="fa fa-twitter"></i></button>
+                          <button class="btn"><i class="fa fa-facebook"></i></button>
+                          <button class="btn"><i class="fa fa-google-plus"></i></button>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                        <br><br>
+                        <table class="table">
+                          <!--TABLEAU PRIX   -->
+                          <tr>
+                            <td class="font-weight-bold">Unité</td>
+                            <td>7€</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Caisse (x6)</td>
+                            <td>30 €</td>
+                          </tr>
+                          <tr>
+                            <td class="font-weight-bold">Fut</td>
+                            <td>100€</td>
+                          </tr>
+                        </table>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FIN partie popup  -->
+
+
         </div>
         <div class="row d-flex justify-content-around">
           <div class="card custom-card col-12 col-lg-3 card-product-category">
@@ -366,7 +649,6 @@
               <div class="col-lg-12 col-md-12 col-sm-12 col-12 d-flex justify-content-center">
                 <button type="button" name="button" class="btn btn-warning center-block  mb-3"> Ajouter au Panier !</button>
               </div>
-
             </div>
           </div>
         </div>

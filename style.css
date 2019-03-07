@@ -1,20 +1,33 @@
 /*CSS GENERAL*/
 
-
+h2{
+    font-family: 'Abril Fatface';
+}
+h3{
+    font-family: 'Abril Fatface';
+    color: #fff;
+    padding-top: 15px;
+}
+h4{
+    font-family: 'Abril Fatface';
+}
+h5{
+    font-family: 'Abril Fatface';
+}
+p{
+  font-family: 'Roboto', sans-serif;
+}
 
 /*CSS NAVBAR THOMAS*/
-
 
 .tom-white-text {
     color: #fff;
 }
 
 .tom-icon {
-  width: 10%;
-  height: auto;
+    width: 10%;
+    height: auto;
 }
-
-
 
 @media only screen and (max-width: 800px) {
     .tom-invisible {
@@ -28,31 +41,54 @@
 
 /*CSS CAROUSSEL KEVIN*/
 
+.img-opacity{
+  opacity: 0.65;
+}
+
 .kev-carousel-item {
-  width: 100%;
-  height: 35rem;
+    width: 100%;
+    height: 35rem;
 }
 
 .kev-carousel-caption {
-    color: orangered;
-    font-size: 4rem;
+    color: #f9b233;
+    font-size: 2.5rem;
     bottom: 40%;
     text-shadow: 5px 5px 5px #000;
     font-weight: bold;
 }
 
 .khtopic {
-    color: orangered;
+    color: #f9b233;
     font-size: 4rem;
     bottom: 55%;
     text-shadow: 5px 5px 5px #000;
     font-weight: bold;
 }
 
+.kev-card {
+    border: 5px solid gold;
+    border-bottom: 15px solid gold;
+    flex-direction: row;
+}
+
+.kev-card2 {
+    border-bottom: 10px solid gold;
+}
+
+.kev-card3 {
+    border: 3px solid black;
+}
+
+.kev-card4 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
 
 /*CSS CATEGORIES JEAN MICHEL */
 #categories {
-    background-color: #ffc107;
+    background-image:linear-gradient(#343a40, #f9b233);
 }
 
 #categories .jmCatTitle {
@@ -104,38 +140,98 @@
     height: auto;
 }
 
-#aboutUs {
-    background-image: url("asset/img/jd/light-veneer.png");
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    padding-top: 2rem;
-}
-
 .jd-card-title {
     text-align: center;
+}
+
+.titreVideo{
+  color:#f9b233;
 }
 
 
 /*CSS TOP VENTES QUENTIN*/
 
-.backgound-top-vente{
-  background-color: #000;
+.backgound-top-vente {
+    background-color: #343a40;
 }
-#topVente h3{
-  color: #fff;
-  padding-top: 15px;
+
+#topVente .card-deck {
+    padding-bottom: 20px;
 }
-#topVente .card-deck{
-  padding-bottom: 20px;
-}
+
 
 /*CSS FOOTER NOEL*/
-.logofooter{
+
+.logofooter {
     width: 60%;
+}
+.back-footer{
+  background-color: #f9b233;
+}
+
+.policefooter{
+    font-size: 2vw;
+}
+
+.taillepolicefooter{
+    font-size: 0.5vw;
+}
+
+.iconefooter{
+    font-size: 300%;
+}
+
+/* CSS DES CATEGORIES*/
+
+.card-product-category {
+    margin-bottom: 15px;
 }
 
 
-/* CSS DES CATEGORIES*/
-.card-product-category{
-  margin-bottom: 15px;
+/* CSS VIDEO */
+
+.testVideo {
+    position: relative;
+    background-color: black;
+    height: 75vh;
+    min-height: 25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+.jd-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.jd-padding {
+    padding: 0% !important;
+}
+
+@media (pointer: coarse) and (hover: none) {}
+
+.video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 1;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    opacity: 0.7;
+}
+
+.txtVideo {
+    position: relative;
+    z-index: 999;
 }
