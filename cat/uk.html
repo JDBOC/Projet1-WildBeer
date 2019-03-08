@@ -4,15 +4,15 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!--bootstrap local CSS-->
+    <link href="../vendor/bootstrap-4/css/bootstrap.min.css" rel="stylesheet">
+    <!--
     <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto" rel="stylesheet">
+  -->
     <link rel="stylesheet" href="../style.css">
     <title>Wild Beer {Grande Bretagne}</title>
   </head>
-  <body class="bg-secondary">
+  <body class="bg-secondary jm-cat ">
     <div class="container-fluid">
       <div class="row nav-bg-orange">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12 bg-dark">
@@ -49,14 +49,15 @@
           </div>
         </div>
       </div>
-      <div class="container-fluid jm-cat text-dark">
+      <div class="container text-dark">
         
         
           <h2 class=" text-center"><!--LE NOM DE VOTRE CATEGORIE-->Les Bières anglo saxonnes</h2>
           
           <h5 class="text-center py-3"><!--LE TEXTE DESCRIPTIF DE VOTRE CATEGORIE-->La bière britannique a une tradition fort ancienne et présente un vaste échantillon de types authentiques: bières amères, tièdes et sombres exportées dans le monde entier  que ce soit la porter, le stout ou la pale ale.</h5>
           
-          <section >
+        <section >
+          <div class="container d-none d-md-block mb-3">
             <div id="carousselTopVente" class="carousel slide " data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -97,440 +98,230 @@
                       <a href="#" class="btn btn-warning center-block mb-3 kev-card3">Ajouter au panier!</a>
                     </div>
                   </div>
+                </div>t
+              </div>
+            </div>
+          </div>
+        </section>
+
+<section id="nosProduits"class="container-fluid  pb-3">
+        <!--card start-->
+  <div class="row d-flex align-items-stretch">      
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2 ">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#brewIpa" src="../asset/img/jm/beers/brewDogIpaRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Brew Dog IPA</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div> 
+  </div>
+   <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#nanny" src="../asset/img/jm/beers/brewDogNannyRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Brew Dog Nanny</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#ginJuice" src="../asset/img/jm/beers/ginJuiceRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Gin Juice</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#guiness" src="../asset/img/jm/beers/guinessRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Guiness</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#innisOriginal" src="../asset/img/jm/beers/innisGunOriginalRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Innis Original</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#innisRubis" src="../asset/img/jm/beers/innisGunRubisRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Innis Gun Rubis</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#ironMaiden" src="../asset/img/jm/beers/ironMaiden.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Iron Maiden</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#Kostritzer" src="../asset/img/jm/beers/kilkennyRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Kilkenny</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#Kostritzer" src="../asset/img/jm/beers/hobgoblinRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">Hobgoblin</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2">
+    <div class="card p-1">
+      <div class="row m-0">
+        <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
+          <img class="card-img-top " data-toggle="modal" data-target="#Kostritzer" src="../asset/img/jm/beers/tinyRebelRsz.png" alt="Card image">
+        </div>
+        <div class="card-body  col-sm-12  col-7 bg-dark text-white">
+          <h4 class="card-title  text-center  ">tiny Rebel</h4>
+          <p class="card-text text-justify">Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.</p>
+          
+          <p class="text-success font-weight-bold text-center">1.80 €</p>
+          <button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <!-- DEBUT partie popup  -->
+      <div id="brewIpa" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!-- TITRE DU POPUP  -->
+                    <h4 class="modal-title">Brew Dog IPA</h4>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!--  BOUTON CROIX FERMETURE -->
+                    <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                  </div>
                 </div>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carousselTopVente" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousselTopVente" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          
-        </section>
-        <section id="nosProduits">
-          <h3 class="text-center text-warning khtext2">
-          Notre Sélection :
-          <!--VOTRE CATEGORIE-->
-          </h3>
-          <br>
-          <div class="container">
-            <div class="row d-flex justify-content-around">
-              <div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
+            <div class="modal-body">
+              <!-- CORPS DU POP UP  -->
+              <div class="container-fluid">
                 <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2">
-                    <img class="card-img-top" data-toggle="modal" data-target="#myModal" src="../asset/img/kevin/Beers/BEER-LAO_resultat_2.jpg" alt="Card image">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <!--  IMAGE DANS LE POPUP -->
+                    <img class="card-img-top" src="../asset/img/jm/beers/brewDogIpaRsz.png" alt="Card image">
                   </div>
-                  <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-                    <div class="card-body black-card d-flex flex-column justify-content-center">
-                      <h4 class="card-title text2 text-center font-text kh-text3">BEER LAO</h4>
-                      <div class="text text-center">
-                        <p class="card-text font-text">
-                          Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.
-                        </p>
-                      </div>
-                      <p class="text-success font-weight-bold text-center">
-                        1.80 €
-                      </p>
-                      <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <!-- DEBUT partie popup  -->
-              <div id="myModal" class="modal fade" role="dialog">
-                <div class="modal-dialog modal-lg">
-                  <div class="modal-content kev-card5">
-                    <div class="modal-header bg-dark text-light">
-                      <div class="container-fluid">
-                        <div class="row">
-                          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                            <!-- TITRE DU POPUP  -->
-                            <h4 class="modal-title kh-text3">BEER LAO</h4>
-                          </div>
-                          <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                            <!--  BOUTON CROIX FERMETURE -->
-                            <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="modal-body">
-                      <!-- CORPS DU POP UP  -->
-                      <div class="container-fluid">
-                        <div class="row">
-                          <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                            <!--  IMAGE DANS LE POPUP -->
-                            <img class="card-img-top" src="../asset/img/kevin/Beers/BEER-LAO_resultat_2.jpg" alt="Card image">
-                          </div>
-                          <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                            <div class="row">
-                              <table class="table table-borderless">
-                                <tr>
-                                  <td class="align-middle font-weight-bold">
-                                    Note
-                                  </td>
-                                  <td>
-                                    <table class="table table-bordered">
-                                      <!-- TABLEAU GOUT/SOIF  -->
-                                      <tr>
-                                        <td>
-                                          Gout
-                                        </td>
-                                        <td>
-                                          Soif
-                                        </td>
-                                        <td>
-                                          Amertume
-                                        </td>
-                                      </tr>
-                                      <tr>
-                                        <td>
-                                          3 / 5
-                                        </td>
-                                        <td>
-                                          1.5 / 2
-                                        </td>
-                                        <td>
-                                          2 / 2
-                                        </td>
-                                      </tr>
-                                    </table>
-                                  </td>
-                                </tr>
-                                <td class="font-weight-bold">
-                                  Pays :
-                                </td>
-                                <td>
-                                  Laos
-                                </td>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                    <div class="row">
+                      <table class="table table-borderless table-responsive">
+                        <tr>
+                          <td class="align-middle font-weight-bold">Note</td>
+                          <td>
+                            <table class="table table-bordered">
+                              <!-- TABLEAU GOUT/SOIF  -->
+                              <tr>
+                                <td>Gout</td>
+                                <td>Soif</td>
+                                <td>Amertume</td>
                               </tr>
                               <tr>
-                                <td class="font-weight-bold">
-                                  Alcool / Volume
-                                </td>
-                                <td>
-                                  5%
-                                </td>
-                              </tr>
-                              <tr>
-                                <td class="font-weight-bold">
-                                  Fermentation
-                                </td>
-                                <td>
-                                  Basse
-                                </td>
+                                <td>2/5</td>
+                                <td>1.5/2</td>
+                                <td>0/2</td>
                               </tr>
                             </table>
-                          </div>
-                          <div class="row">
-                            <!-- BOUTON RESEAU SOCIAUX  -->
-                            <button class="btn"><i class="fa fa-twitter"></i></button>
-                            <button class="btn"><i class="fa fa-facebook"></i></button>
-                            <button class="btn"><i class="fa fa-google-plus"></i></button>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row">
-                        <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                          <br>
-                          <br>
-                          <table class="table">
-                            <!--TABLEAU PRIX-->
-                            <tr>
-                              <td class="font-weight-bold">
-                                Unité
-                              </td>
-                              <td>
-                                1.80 €
-                              </td>
-                            </tr>
-                            <tr>
-                              <td class="font-weight-bold">
-                                Caisse (x6)
-                              </td>
-                              <td>
-                                9.80 €
-                              </td>
-                            </tr>
-                            <tr>
-                              <td class="font-weight-bold">
-                                Fut
-                              </td>
-                              <td>
-                                NA
-                              </td>
-                            </tr>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!--ASAHI-->
-            <div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2">
-                  <img class="card-img-top" data-toggle="modal" data-target="#myModal2" src="../asset/img/kevin/Beers/ASAHI2_resultat_2.jpg" alt="Card image">
-                </div>
-                <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-                  <div class="card-body black-card d-flex flex-column justify-content-center">
-                    <h4 class="card-title text2 text-center font-text kh-text3">ASAHI</h4>
-                    <div class="text text-center">
-                      <p class="card-text font-text">
-                        La bière blonde la plus vendue au Japon...et dans les restaurants de sushis!
-                      </p>
-                    </div>
-                    <p class="text-success font-weight-bold text-center">
-                      2.60 €
-                    </p>
-                    <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-                  </div>
-                </div>
-              </div>
-            </div><div id="myModal2" class="modal fade" role="dialog">
-            <div class="modal-dialog modal-lg">
-              <div class="modal-content">
-                <div class="modal-header bg-dark text-light">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                        <!-- TITRE DU POPUP  -->
-                        <h4 class="modal-title kh-text3">ASAHI</h4>
-                      </div>
-                      <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                        <!--  BOUTON CROIX FERMETURE -->
-                        <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-body ">
-                  <!-- CORPS DU POP UP  -->
-                  <div class="container-fluid ">
-                    <div class="row">
-                      <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                        <!--  IMAGE DANS LE POPUP -->
-                        <img class="card-img-top" src="../asset/img/kevin/Beers/ASAHI2_resultat_2.jpg" alt="Card image">
-                      </div>
-                      <div class="col-lg-8 col-md-8 col-sm-8 col-8 ">
-                        <div class="row">
-                          <table class="table table-borderless">
-                            <tr>
-                              <td class="align-middle font-weight-bold ">
-                                Note
-                              </td>
-                              <td>
-                                <table class="table table-bordered">
-                                  <!-- TABLEAU GOUT/SOIF  -->
-                                  <tr>
-                                    <td>
-                                      Gout
-                                    </td>
-                                    <td>
-                                      Soif
-                                    </td>
-                                    <td>
-                                      Amertume
-                                    </td>
-                                  </tr>
-                                  <tr>
-                                    <td>
-                                      5 / 5
-                                    </td>
-                                    <td>
-                                      1.5 / 2
-                                    </td>
-                                    <td>
-                                      2 / 2
-                                    </td>
-                                  </tr>
-                                </table>
-                              </td>
-                            </tr>
-                            <tr>
-                              <td class="font-weight-bold ">
-                                Pays :
-                              </td>
-                              <td>
-                                Japon
-                              </td>
-                            </tr>
-                            <tr>
-                              <td class="font-weight-bold">
-                                Alcool / Volume
-                              </td>
-                              <td>
-                                5%
-                              </td>
-                            </tr>
-                            <tr>
-                              <td class="font-weight-bold">
-                                Fermentation
-                              </td>
-                              <td>
-                                Basse
-                              </td>
-                            </tr>
-                          </table>
-                        </div>
-                        <div class="row">
-                          <!-- BOUTON RESEAU SOCIAUX  -->
-                          <button class="btn"><i class="fa fa-twitter"></i></button>
-                          <button class="btn"><i class="fa fa-facebook"></i></button>
-                          <button class="btn"><i class="fa fa-google-plus"></i></button>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                        <br>
-                        <br>
-                        <table class="table ">
-                          <!--TABLEAU PRIX-->
-                          <tr>
-                            <td class="font-weight-bold">
-                              Unité
-                            </td>
-                            <td>
-                              2.60 €
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="font-weight-bold">
-                              Caisse (x6)
-                            </td>
-                            <td>
-                              14.00 €
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="font-weight-bold">
-                              Fut
-                            </td>
-                            <td>
-                              NA
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!--TIGER-->
-          <div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2">
-                <br>
-                <img class="card-img-top" data-toggle="modal" data-target="#myModal3" src="../asset/img/kevin/Beers/TIGER_resultat_2.jpg" alt="Card image">
-              </div>
-              <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-                <div class="card-body black-card d-flex flex-column justify-content-center">
-                  <h4 class="card-title text2 text-center font-text kh-text3">TIGER BEER</h4>
-                  <div class="text text-center">
-                    <p class="card-text font-text">
-                      Une bière blonde premium brassée : malt australien, houblon allemand.
-                    </p>
-                  </div>
-                  <p class="text-success font-weight-bold text-center">
-                    2.55 €
-                  </p>
-                  <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- DEBUT partie popup  -->
-        <div id="myModal3" class="modal fade" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header bg-dark text-light">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                      <!-- TITRE DU POPUP  -->
-                      <h4 class="modal-title kh-text3">TIGER BEER</h4>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                      <!--  BOUTON CROIX FERMETURE -->
-                      <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-body">
-                <!-- CORPS DU POP UP  -->
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                      <!--  IMAGE DANS LE POPUP -->
-                      <img class="card-img-top" src="../asset/img/kevin/Beers/TIGER_resultat_2.jpg" alt="Card image">
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                      <div class="row">
-                        <table class="table table-borderless">
-                          <tr>
-                            <td class="align-middle font-weight-bold">
-                              Note
-                            </td>
-                            <td>
-                              <table class="table table-bordered">
-                                <!-- TABLEAU GOUT/SOIF  -->
-                                <tr>
-                                  <td>
-                                    Gout
-                                  </td>
-                                  <td>
-                                    Soif
-                                  </td>
-                                  <td>
-                                    Amertume
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    2 / 5
-                                  </td>
-                                  <td>
-                                    2 / 2
-                                  </td>
-                                  <td>
-                                    1 / 2
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                          <td class="font-weight-bold">
-                            Pays :
-                          </td>
-                          <td>
-                            Laos
                           </td>
                         </tr>
                         <tr>
-                          <td class="font-weight-bold">
-                            Alcool / Volume
-                          </td>
-                          <td>
-                            5.1%
-                          </td>
+                          <td class="font-weight-bold">Alcool/volume</td>
+                          <td>3.8%</td>
                         </tr>
                         <tr>
-                          <td class="font-weight-bold">
-                            Fermentation
-                          </td>
-                          <td>
-                            Basse
-                          </td>
+                          <td class="font-weight-bold">Fermentation</td>
+                          <td>Basse</td>
                         </tr>
                       </table>
                     </div>
@@ -544,350 +335,20 @@
                 </div>
                 <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <br>
-                    <br>
+                    <br><br>
                     <table class="table">
-                      <!--TABLEAU PRIX-->
+                      <!--TABLEAU PRIX   -->
                       <tr>
-                        <td class="font-weight-bold">
-                          Unité
-                        </td>
-                        <td>
-                          2.55 €
-                        </td>
+                        <td class="font-weight-bold">Unité</td>
+                        <td>7€</td>
                       </tr>
                       <tr>
-                        <td class="font-weight-bold">
-                          Caisse (x6)
-                        </td>
-                        <td>
-                          15.00 €
-                        </td>
+                        <td class="font-weight-bold">Caisse (x6)</td>
+                        <td>30€</td>
                       </tr>
                       <tr>
-                        <td class="font-weight-bold">
-                          Fut
-                        </td>
-                        <td>
-                          NA
-                        </td>
-                      </tr>
-                    </table>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div><br>
-      <!--TSINGTAO-->
-      <div class="row d-flex justify-content-around">
-        <div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2 kev-card4">
-              <img class="card-img-top" data-toggle="modal" data-target="#myModal4" src="../asset/img/kevin/Beers/TSINGTAO_resultat_2.jpg" alt="Card image">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-              <div class="card-body black-card d-flex flex-column justify-content-center">
-                <h4 class="card-title text2 text-center font-text kh-text3">TSINGTAO</h4>
-                <div class="text text-center">
-                  <p class="card-text font-text">
-                    La bière chinoise rafraîchissante la plus connue et répandue !
-                  </p>
-                </div>
-                <p class="text-success font-weight-bold text-center">
-                  2.60 €
-                </p>
-                <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div id="myModal4" class="modal fade" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header bg-dark text-light">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                      <!-- TITRE DU POPUP  -->
-                      <h4 class="modal-title kh-text3">TSINGTAO</h4>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                      <!--  BOUTON CROIX FERMETURE -->
-                      <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-body">
-                <!-- CORPS DU POP UP  -->
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                      <!--  IMAGE DANS LE POPUP -->
-                      <img class="card-img-top" src="../asset/img/kevin/Beers/TSINGTAO_resultat_2.jpg" alt="Card image">
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                      <div class="row">
-                        <table class="table table-borderless">
-                          <tr>
-                            <td class="font-weight-bold">
-                              Pays :
-                            </td>
-                            <td>
-                              Chine
-                            </td>
-                            <td class="align-middle font-weight-bold">
-                              Note
-                            </td>
-                            <td>
-                              <table class="table table-bordered">
-                                <!-- TABLEAU GOUT/SOIF  -->
-                                <tr>
-                                  <td>
-                                    Gout
-                                  </td>
-                                  <td>
-                                    Soif
-                                  </td>
-                                  <td>
-                                    Amertume
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    2 / 5
-                                  </td>
-                                  <td>
-                                    1 / 2
-                                  </td>
-                                  <td>
-                                    1.5 / 2
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="font-weight-bold">
-                              Pays :
-                            </td>
-                            <td>
-                              Chine
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="font-weight-bold">
-                              Alcool / Volume
-                            </td>
-                            <td>
-                              4.5%
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="font-weight-bold">
-                              Fermentation
-                            </td>
-                            <td>
-                              Basse
-                            </td>
-                          </tr>
-                        </table>
-                      </div>
-                      <div class="row">
-                        <!-- BOUTON RESEAU SOCIAUX  -->
-                        <button class="btn"><i class="fa fa-twitter"></i></button>
-                        <button class="btn"><i class="fa fa-facebook"></i></button>
-                        <button class="btn"><i class="fa fa-google-plus"></i></button>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="row">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                      <br>
-                      <br>
-                      <table class="table">
-                        <!--TABLEAU PRIX-->
-                        <tr>
-                          <td class="font-weight-bold">
-                            Unité
-                          </td>
-                          <td>
-                            2.60 €
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Caisse (x6)
-                          </td>
-                          <td>
-                            14.50 €
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Fut
-                          </td>
-                          <td>
-                            NA
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!--SNOW-->
-        <div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2 kev-card4">
-              <img class="card-img-top" data-toggle="modal" data-target="#myModal5" src="../asset/img/kevin/Beers/SNOW_resultat_2.jpg" alt="Card image">
-            </div>
-            <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-              <div class="card-body black-card d-flex flex-column justify-content-center">
-                <h4 class="card-title text2 text-center font-text kh-text3">SNOW</h4>
-                <div class="text text-center">
-                  <p class="card-text font-text">
-                    Une bière lager originaire de Chine avec fermentation basse ayant 3.5º de ABV.
-                  </p>
-                </div>
-                <p class="text-success font-weight-bold text-center">
-                  1.85 €
-                </p>
-                <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- DEBUT partie popup  -->
-        <div id="myModal5" class="modal fade" role="dialog">
-          <div class="modal-dialog modal-lg">
-            <div class="modal-content">
-              <div class="modal-header bg-dark text-light">
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                      <!-- TITRE DU POPUP  -->
-                      <h4 class="modal-title kh-text3">SNOW</h4>
-                    </div>
-                    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                      <!--  BOUTON CROIX FERMETURE -->
-                      <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="modal-body">
-                <!-- CORPS DU POP UP  -->
-                <div class="container-fluid">
-                  <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                      <!--  IMAGE DANS LE POPUP -->
-                      <img class="card-img-top" src="../asset/img/kevin/Beers/SNOW_resultat_2.jpg" alt="Card image">
-                    </div>
-                    <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                      <div class="row">
-                        <table class="table table-borderless">
-                          <tr>
-                            <td class="align-middle font-weight-bold">
-                              Note
-                            </td>
-                            <td>
-                              <table class="table table-bordered">
-                                <!-- TABLEAU GOUT/SOIF  -->
-                                <tr>
-                                  <td>
-                                    Gout
-                                  </td>
-                                  <td>
-                                    Soif
-                                  </td>
-                                  <td>
-                                    Amertume
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td>
-                                    l_az_ar2_www.Gde-Fon.com.jpg                                    l_az_ar2_www.Gde-Fon.com.jpg                                                                                                                    3.5 / 5
-                                  </td>
-                                  <td>
-                                    2 / 2
-                                  </td>
-                                  <td>
-                                    0.5 / 2
-                                  </td>
-                                </tr>
-                              </table>
-                            </td>
-                          </tr>
-                          <tr>
-                            <td class="font-weight-bold">
-                              Pays :
-                            </td>
-                            <td>
-                              Chine
-                            </td>
-                          </tr>
-                        </tr>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Alcool / Volume
-                          </td>
-                          <td>
-                            3.5%
-                          </td>
-                        </tr>
-                        <tr>
-                          <td class="font-weight-bold">
-                            Fermentation
-                          </td>
-                          <td>
-                            Basse
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                    <div class="row">
-                      <!-- BOUTON RESEAU SOCIAUX  -->
-                      <button class="btn"><i class="fa fa-twitter"></i></button>
-                      <button class="btn"><i class="fa fa-facebook"></i></button>
-                      <button class="btn"><i class="fa fa-google-plus"></i></button>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                    <br>
-                    <br>
-                    <table class="table">
-                      <!--TABLEAU PRIX-->
-                      <tr>
-                        <td class="font-weight-bold">
-                          Unité
-                        </td>
-                        <td>
-                          1.85 €
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-weight-bold">
-                          Caisse (x6)
-                        </td>
-                        <td>
-                          10.10 €
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-weight-bold">
-                          Fut
-                        </td>
-                        <td>
-                          NA
-                        </td>
+                        <td class="font-weight-bold">Fut</td>
+                        <td>100€</td>
                       </tr>
                     </table>
                   </div>
@@ -897,636 +358,555 @@
           </div>
         </div>
       </div>
-      <!--SINGHA-->
-      <div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2 kev-card4">
-            <img class="card-img-top" data-toggle="modal" data-target="#myModal6" src="../asset/img/kevin/Beers/SINGHA_resultat_2.jpg" alt="Card image">
-          </div>
-          <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-            <div class="card-body black-card d-flex flex-column justify-content-center">
-              <h4 class="card-title text2 text-center font-text kh-text3">SINGHA</h4>
-              <div class="text text-center">
-                <p class="card-text font-text">
-                  Une bière premium thailandaise empreinte d’exotisme et d’élégance.
-                </p>
-              </div>
-              <p class="text-success font-weight-bold text-center">
-                1.55 €
-              </p>
-              <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- DEBUT partie popup  -->
-    <div id="myModal6" class="modal fade" role="dialog">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header bg-dark text-light">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <!-- TITRE DU POPUP  -->
-                  <h4 class="modal-title kh-text3">SINGHA</h4>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <!--  BOUTON CROIX FERMETURE -->
-                  <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-body">
-            <!-- CORPS DU POP UP  -->
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                  <!--  IMAGE DANS LE POPUP -->
-                  <img class="card-img-top" src="../asset/img/kevin/Beers/SINGHA_resultat_2.jpg" alt="Card image">
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                  <div class="row">
-                    <table class="table table-borderless">
-                      <tr>
-                        <td class="align-middle font-weight-bold">
-                          Note
-                        </td>
-                        <td>
-                          <table class="table table-bordered">
-                            <!-- TABLEAU GOUT/SOIF  -->
-                            <tr>
-                              <td>
-                                Gout
-                              </td>
-                              <td>
-                                Soif
-                              </td>
-                              <td>
-                                Amertume
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                3 / 5
-                              </td>
-                              <td>
-                                1.5 / 2
-                              </td>
-                              <td>
-                                1.5 / 2
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-weight-bold">
-                          Pays :
-                        </td>
-                        <td>
-                          Thaîlande
-                        </td>
-                      </tr>
-                    </tr>
-                    <tr>
-                      <td class="font-weight-bold">
-                        Alcool / Volume
-                      </td>
-                      <td>
-                        5%
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="font-weight-bold">
-                        Fermentation
-                      </td>
-                      <td>
-                        Basse
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-                <div class="row">
-                  <!-- BOUTON RESEAU SOCIAUX  -->
-                  <button class="btn"><i class="fa fa-twitter"></i></button>
-                  <button class="btn"><i class="fa fa-facebook"></i></button>
-                  <button class="btn"><i class="fa fa-google-plus"></i></button>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                <br>
-                <br>
-                <table class="table">
-                  <!--TABLEAU PRIX-->
-                  <tr>
-                    <td class="font-weight-bold">
-                      Unité
-                    </td>
-                    <td>
-                      1.55 €
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="font-weight-bold">
-                      Caisse (x6)
-                    </td>
-                    <td>
-                      9.00 €
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="font-weight-bold">
-                      Fut
-                    </td>
-                    <td>
-                      NA
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div><br>
-  <!--CAMBODIA-->
-  <div class="row d-flex justify-content-around">
-    <div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
-      <div class="row">
-        <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2">
-          <img class="card-img-top" data-toggle="modal" data-target="#myModal7" src="../asset/img/kevin/Beers/Cambodia_resultat_2.jpg" alt="Card image">
-        </div>
-        <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-          <div class="card-body black-card d-flex flex-column justify-content-center">
-            <h4 class="card-title text2 text-center font-text kh-text3">CAMBODIA</h4>
-            <div class="text text-center">
-              <p class="card-text font-text">
-                Elle porte le nom de sa patrie. La bière la plus consommé au Cambodge !
-              </p>
-            </div>
-            <p class="text-success font-weight-bold text-center">
-              2.00 €
-            </p>
-            <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- DEBUT partie popup  -->
-    <div id="myModal7" class="modal fade" role="dialog">
-      <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-          <div class="modal-header bg-dark text-light">
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <!-- TITRE DU POPUP  -->
-                  <h4 class="modal-title kh-text3">CAMBODIA</h4>
-                </div>
-                <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                  <!--  BOUTON CROIX FERMETURE -->
-                  <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="modal-body">
-            <!-- CORPS DU POP UP  -->
-            <div class="container-fluid">
-              <div class="row">
-                <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                  <!--  IMAGE DANS LE POPUP -->
-                  <img class="card-img-top" src="../asset/img/kevin/Beers/Cambodia_resultat_2.jpg" alt="Card image">
-                </div>
-                <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                  <div class="row">
-                    <table class="table table-borderless">
-                      <tr>
-                        <td class="align-middle font-weight-bold">
-                          Note
-                        </td>
-                        <td>
-                          <table class="table table-bordered">
-                            <!-- TABLEAU GOUT/SOIF  -->
-                            <tr>
-                              <td>
-                                Gout
-                              </td>
-                              <td>
-                                Soif
-                              </td>
-                              <td>
-                                Amertume
-                              </td>
-                            </tr>
-                            <tr>
-                              <td>
-                                2 / 5
-                              </td>
-                              <td>
-                                0.5 / 2
-                              </td>
-                              <td>
-                                2 / 2
-                              </td>
-                            </tr>
-                          </table>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td class="font-weight-bold">
-                          Pays :
-                        </td>
-                        <td>
-                          Cambodge
-                        </td>
-                      </tr>
-                    </tr>
-                    <tr>
-                      <td class="font-weight-bold">
-                        Alcool /Volume
-                      </td>
-                      <td>
-                        5%
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="font-weight-bold">
-                        Fermentation
-                      </td>
-                      <td>
-                        Basse
-                      </td>
-                    </tr>
-                  </table>
-                </div>
-                <div class="row">
-                  <!-- BOUTON RESEAU SOCIAUX  -->
-                  <button class="btn"><i class="fa fa-twitter"></i></button>
-                  <button class="btn"><i class="fa fa-facebook"></i></button>
-                  <button class="btn"><i class="fa fa-google-plus"></i></button>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                <br>
-                <br>
-                <table class="table">
-                  <!--TABLEAU PRIX-->
-                  <tr>
-                    <td class="font-weight-bold">
-                      Unité
-                    </td>
-                    <td>
-                      2.00 €
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="font-weight-bold">
-                      Caisse (x6)
-                    </td>
-                    <td>
-                      11.00 €
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="font-weight-bold">
-                      Fut
-                    </td>
-                    <td>
-                      NA
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!--ANGKOR BEER-->
-  <div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2">
-        <img class="card-img-top" data-toggle="modal" data-target="#myModal8" src="../asset/img/kevin/Beers/ANGKOR-BEER_resultat_2.jpg" alt="Card image">
-      </div>
-      <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-        <div class="card-body black-card d-flex flex-column justify-content-center">
-          <h4 class="card-title text2 text-center font-text kh-text3">ANGKOR</h4>
-          <div class="text text-center">
-            <p class="card-text font-text">
-              Une bière blonde type pils brassée au Cambodge. Douce et légère.
-            </p>
-          </div>
-          <p class="text-success font-weight-bold text-center">
-            1.55 €
-          </p>
-          <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- DEBUT partie popup  -->
-  <div id="myModal8" class="modal fade" role="dialog">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header bg-dark text-light">
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                <!-- TITRE DU POPUP  -->
-                <h4 class="modal-title kh-text3">ANGKOR</h4>
-              </div>
-              <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-                <!--  BOUTON CROIX FERMETURE -->
-                <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="modal-body">
-          <!-- CORPS DU POP UP  -->
-          <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-                <!--  IMAGE DANS LE POPUP -->
-                <img class="card-img-top" src="../asset/img/kevin/Beers/ANGKOR-BEER_resultat_2.jpg" alt="Card image">
-              </div>
-              <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-                <div class="row">
-                  <table class="table table-borderless">
-                    <tr>
-                      <td class="align-middle font-weight-bold">
-                        Note
-                      </td>
-                      <td>
-                        <table class="table table-bordered">
-                          <!-- TABLEAU GOUT/SOIF  -->
-                          <tr>
-                            <td>
-                              Gout
-                            </td>
-                            <td>
-                              Soif
-                            </td>
-                            <td>
-                              Amertume
-                            </td>
-                          </tr>
-                          <tr>
-                            <td>
-                              4 / 5
-                            </td>
-                            <td>
-                              2 / 2
-                            </td>
-                            <td>
-                              1.5 / 2
-                            </td>
-                          </tr>
-                        </table>
-                      </td>
-                    </tr>
-                    <tr>
-                      <td class="font-weight-bold">
-                        Pays :
-                      </td>
-                      <td>
-                        Cambodge
-                      </td>
-                    </tr>
-                  </tr>
-                  <tr>
-                    <td class="font-weight-bold">
-                      Alcool / Volume
-                    </td>
-                    <td>
-                      5%
-                    </td>
-                  </tr>
-                  <tr>
-                    <td class="font-weight-bold">
-                      Fermentation
-                    </td>
-                    <td>
-                      Basse
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="row">
-                <!-- BOUTON RESEAU SOCIAUX  -->
-                <button class="btn"><i class="fa fa-twitter"></i></button>
-                <button class="btn"><i class="fa fa-facebook"></i></button>
-                <button class="btn"><i class="fa fa-google-plus"></i></button>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-              <br>
-              <br>
-              <table class="table">
-                <!--TABLEAU PRIX-->
-                <tr>
-                  <td class="font-weight-bold">
-                    Unité
-                  </td>
-                  <td>
-                    1.55 €
-                  </td>
-                </tr>
-                <tr>
-                  <td class="font-weight-bold">
-                    Caisse (x6)
-                  </td>
-                  <td>
-                    8.60 €
-                  </td>
-                </tr>
-                <tr>
-                  <td class="font-weight-bold">
-                    Fut
-                  </td>
-                  <td>
-                    NA
-                  </td>
-                </tr>
-              </table>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-<!--SAIGON-->
-<div class="card custom-card col-12 col-lg-3 card-product-category kev-card">
-  <div class="row">
-    <div class="col-lg-12 col-md-12 col-sm-6 col-6 kev-card2">
-      <img class="card-img-top" data-toggle="modal" data-target="#myModal9" src="../asset/img/kevin/Beers/SAIGON_resultat_2.jpg" alt="Card image">
-    </div>
-    <div class="col-lg-12 col-md-12 col-sm-6 col-6 bg-dark text-white kev-card2">
-      <div class="card-body black-card d-flex flex-column justify-content-center">
-        <h4 class="card-title text2 text-center font-text kh-text3">SAIGON</h4>
-        <div class="text text-center">
-          <p class="card-text font-text">
-            Pils vietnamienne légère et désaltérante brassée avec du malt et du riz.
-          </p>
-        </div>
-        <p class="text-success font-weight-bold text-center">
-          2.10 €
-        </p>
-        <button type="button" name="button" class="btn btn-warning center-block mb-3 kev-card3"> Ajouter au Panier !</button>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-</section>
-</div></div>
+      <!--modal end-->
 <!-- DEBUT partie popup  -->
-<div id="myModal9" class="modal fade" role="dialog">
-<div class="modal-dialog modal-lg">
-<div class="modal-content">
-<div class="modal-header bg-dark text-light">
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-      <!-- TITRE DU POPUP  -->
-      <h4 class="modal-title kh-text3">SAIGON</h4>
-    </div>
-    <div class="col-lg-6 col-md-6 col-sm-6 col-6">
-      <!--  BOUTON CROIX FERMETURE -->
-      <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
-    </div>
-  </div>
-</div>
-</div>
-<div class="modal-body">
-<!-- CORPS DU POP UP  -->
-<div class="container-fluid">
-  <div class="row">
-    <div class="col-lg-4 col-md-4 col-sm-4 col-4">
-      <!--  IMAGE DANS LE POPUP -->
-      <img class="card-img-top" src="../asset/img/kevin/Beers/SAIGON_resultat_2.jpg" alt="Card image">
-    </div>
-    <div class="col-lg-8 col-md-8 col-sm-8 col-8">
-      <div class="row">
-        <table class="table table-borderless">
-          <tr>
-            <td class="align-middle font-weight-bold">
-              Note
-            </td>
-            <td>
-              <table class="table table-bordered">
-                <!-- TABLEAU GOUT/SOIF  -->
-                <tr>
-                  <td>
-                    Gout
-                  </td>
-                  <td>
-                    Soif
-                  </td>
-                  <td>
-                    Amertume
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    3 / 5
-                  </td>
-                  <td>
-                    1.5 / 2
-                  </td>
-                  <td>
-                    1.5 / 2
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <td class="font-weight-bold">
-            Pays :
-          </td>
-          <td>
-            Vietnam
-          </td>
-        </tr>
-      </tr>
-      <tr>
-        <td class="font-weight-bold">
-          Alcool / Volume
-        </td>
-        <td>
-          4.9%
-        </td>
-      </tr>
-      <tr>
-        <td class="font-weight-bold">
-          Fermentation
-        </td>
-        <td>
-          Basse
-        </td>
-      </tr>
-    </table>
-  </div>
-  <div class="row">
-    <!-- BOUTON RESEAU SOCIAUX  -->
-    <button class="btn"><i class="fa fa-twitter"></i></button>
-    <button class="btn"><i class="fa fa-facebook"></i></button>
-    <button class="btn"><i class="fa fa-google-plus"></i></button>
-  </div>
-</div>
-</div>
-<div class="row">
-<div class="col-lg-12 col-md-12 col-sm-12 col-12">
-  <br>
-  <br>
-  <table class="table">
-    <!--TABLEAU PRIX-->
-    <tr>
-      <td class="font-weight-bold">
-        Unité
-      </td>
-      <td>
-        2.10 €
-      </td>
-    </tr>
-    <tr>
-      <td class="font-weight-bold">
-        Caisse (x6)
-      </td>
-      <td>
-        11.60 €
-      </td>
-    </tr>
-    <tr>
-      <td class="font-weight-bold">
-        Fut
-      </td>
-      <td>
-        NA
-      </td>
-    </tr>
-  </table>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<br>
-</div>
+      <div id="nanny" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!-- TITRE DU POPUP  -->
+                    <h4 class="modal-title">Brew Dog Nanny</h4>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!--  BOUTON CROIX FERMETURE -->
+                    <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <!-- CORPS DU POP UP  -->
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <!--  IMAGE DANS LE POPUP -->
+                    <img class="card-img-top" src="../asset/img/jm/beers/brewDogNannyRsz.png" alt="Card image">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                    <div class="row">
+                      <table class="table table-borderless table-responsive">
+                        <tr>
+                          <td class="align-middle font-weight-bold">Note</td>
+                          <td>
+                            <table class="table table-bordered">
+                              <!-- TABLEAU GOUT/SOIF  -->
+                              <tr>
+                                <td>Gout</td>
+                                <td>Soif</td>
+                                <td>Amertume</td>
+                              </tr>
+                              <tr>
+                                <td>2/5</td>
+                                <td>1.5/2</td>
+                                <td>0/2</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Alcool/volume</td>
+                          <td>3.8%</td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Fermentation</td>
+                          <td>Basse</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="row">
+                      <!-- BOUTON RESEAU SOCIAUX  -->
+                      <button class="btn"><i class="fa fa-twitter"></i></button>
+                      <button class="btn"><i class="fa fa-facebook"></i></button>
+                      <button class="btn"><i class="fa fa-google-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <br><br>
+                    <table class="table">
+                      <!--TABLEAU PRIX   -->
+                      <tr>
+                        <td class="font-weight-bold">Unité</td>
+                        <td>7€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Caisse (x6)</td>
+                        <td>30€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Fut</td>
+                        <td>100€</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal end-->
+<!-- DEBUT partie popup  -->
+      <div id="ginJuice" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!-- TITRE DU POPUP  -->
+                    <h4 class="modal-title">Gin Juice</h4>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!--  BOUTON CROIX FERMETURE -->
+                    <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <!-- CORPS DU POP UP  -->
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <!--  IMAGE DANS LE POPUP -->
+                    <img class="card-img-top" src="../asset/img/jm/beers/ginJuiceRsz.png" alt="Card image">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                    <div class="row">
+                      <table class="table table-borderless table-responsive">
+                        <tr>
+                          <td class="align-middle font-weight-bold">Note</td>
+                          <td>
+                            <table class="table table-bordered">
+                              <!-- TABLEAU GOUT/SOIF  -->
+                              <tr>
+                                <td>Gout</td>
+                                <td>Soif</td>
+                                <td>Amertume</td>
+                              </tr>
+                              <tr>
+                                <td>2/5</td>
+                                <td>1.5/2</td>
+                                <td>0/2</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Alcool/volume</td>
+                          <td>3.8%</td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Fermentation</td>
+                          <td>Basse</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="row">
+                      <!-- BOUTON RESEAU SOCIAUX  -->
+                      <button class="btn"><i class="fa fa-twitter"></i></button>
+                      <button class="btn"><i class="fa fa-facebook"></i></button>
+                      <button class="btn"><i class="fa fa-google-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <br><br>
+                    <table class="table">
+                      <!--TABLEAU PRIX   -->
+                      <tr>
+                        <td class="font-weight-bold">Unité</td>
+                        <td>7€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Caisse (x6)</td>
+                        <td>30€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Fut</td>
+                        <td>100€</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal end-->
+      <!-- DEBUT partie popup  -->
+      <div id="guiness" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!-- TITRE DU POPUP  -->
+                    <h4 class="modal-title">Guiness Original</h4>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!--  BOUTON CROIX FERMETURE -->
+                    <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <!-- CORPS DU POP UP  -->
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <!--  IMAGE DANS LE POPUP -->
+                    <img class="card-img-top" src="../asset/img/jm/beers/guinessRsz.png" alt="Card image">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                    <div class="row">
+                      <table class="table table-borderless table-responsive">
+                        <tr>
+                          <td class="align-middle font-weight-bold">Note</td>
+                          <td>
+                            <table class="table table-bordered">
+                              <!-- TABLEAU GOUT/SOIF  -->
+                              <tr>
+                                <td>Gout</td>
+                                <td>Soif</td>
+                                <td>Amertume</td>
+                              </tr>
+                              <tr>
+                                <td>2/5</td>
+                                <td>1.5/2</td>
+                                <td>0/2</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Alcool/volume</td>
+                          <td>3.8%</td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Fermentation</td>
+                          <td>Basse</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="row">
+                      <!-- BOUTON RESEAU SOCIAUX  -->
+                      <button class="btn"><i class="fa fa-twitter"></i></button>
+                      <button class="btn"><i class="fa fa-facebook"></i></button>
+                      <button class="btn"><i class="fa fa-google-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <br><br>
+                    <table class="table">
+                      <!--TABLEAU PRIX   -->
+                      <tr>
+                        <td class="font-weight-bold">Unité</td>
+                        <td>7€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Caisse (x6)</td>
+                        <td>30€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Fut</td>
+                        <td>100€</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal end-->
+            <!-- DEBUT partie popup  -->
+      <div id="innisOriginal" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!-- TITRE DU POPUP  -->
+                    <h4 class="modal-title">Innis Gun Original</h4>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!--  BOUTON CROIX FERMETURE -->
+                    <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <!-- CORPS DU POP UP  -->
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <!--  IMAGE DANS LE POPUP -->
+                    <img class="card-img-top" src="../asset/img/jm/beers/innisGunOriginalRsz.png" alt="Card image">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                    <div class="row">
+                      <table class="table table-borderless table-responsive">
+                        <tr>
+                          <td class="align-middle font-weight-bold">Note</td>
+                          <td>
+                            <table class="table table-bordered">
+                              <!-- TABLEAU GOUT/SOIF  -->
+                              <tr>
+                                <td>Gout</td>
+                                <td>Soif</td>
+                                <td>Amertume</td>
+                              </tr>
+                              <tr>
+                                <td>2/5</td>
+                                <td>1.5/2</td>
+                                <td>0/2</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Alcool/volume</td>
+                          <td>3.8%</td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Fermentation</td>
+                          <td>Basse</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="row">
+                      <!-- BOUTON RESEAU SOCIAUX  -->
+                      <button class="btn"><i class="fa fa-twitter"></i></button>
+                      <button class="btn"><i class="fa fa-facebook"></i></button>
+                      <button class="btn"><i class="fa fa-google-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <br><br>
+                    <table class="table">
+                      <!--TABLEAU PRIX   -->
+                      <tr>
+                        <td class="font-weight-bold">Unité</td>
+                        <td>7€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Caisse (x6)</td>
+                        <td>30€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Fut</td>
+                        <td>100€</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal end-->
+                  <!-- DEBUT partie popup  -->
+      <div id="innisRubis" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!-- TITRE DU POPUP  -->
+                    <h4 class="modal-title">Innis Gun Rubis</h4>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!--  BOUTON CROIX FERMETURE -->
+                    <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <!-- CORPS DU POP UP  -->
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <!--  IMAGE DANS LE POPUP -->
+                    <img class="card-img-top" src="../asset/img/jm/beers/innisGunRubisRsz.png" alt="Card image">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                    <div class="row">
+                      <table class="table table-borderless table-responsive">
+                        <tr>
+                          <td class="align-middle font-weight-bold">Note</td>
+                          <td>
+                            <table class="table table-bordered">
+                              <!-- TABLEAU GOUT/SOIF  -->
+                              <tr>
+                                <td>Gout</td>
+                                <td>Soif</td>
+                                <td>Amertume</td>
+                              </tr>
+                              <tr>
+                                <td>2/5</td>
+                                <td>1.5/2</td>
+                                <td>0/2</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Alcool/volume</td>
+                          <td>3.8%</td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Fermentation</td>
+                          <td>Basse</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="row">
+                      <!-- BOUTON RESEAU SOCIAUX  -->
+                      <button class="btn"><i class="fa fa-twitter"></i></button>
+                      <button class="btn"><i class="fa fa-facebook"></i></button>
+                      <button class="btn"><i class="fa fa-google-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <br><br>
+                    <table class="table">
+                      <!--TABLEAU PRIX   -->
+                      <tr>
+                        <td class="font-weight-bold">Unité</td>
+                        <td>7€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Caisse (x6)</td>
+                        <td>30€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Fut</td>
+                        <td>100€</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal end-->
+                        <!-- DEBUT partie popup  -->
+      <div id="ironMaiden" class="modal fade" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header bg-dark text-light">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!-- TITRE DU POPUP  -->
+                    <h4 class="modal-title">Iron Maiden</h4>
+                  </div>
+                  <div class="col-lg-6 col-md-6 col-sm-6 col-6">
+                    <!--  BOUTON CROIX FERMETURE -->
+                    <button type="button" class="close text-light" data-dismiss="modal">&times;</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="modal-body">
+              <!-- CORPS DU POP UP  -->
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-lg-4 col-md-4 col-sm-4 col-4">
+                    <!--  IMAGE DANS LE POPUP -->
+                    <img class="card-img-top" src="../asset/img/jm/beers/ironMaiden.png" alt="Card image">
+                  </div>
+                  <div class="col-lg-8 col-md-8 col-sm-8 col-8">
+                    <div class="row">
+                      <table class="table table-borderless table-responsive">
+                        <tr>
+                          <td class="align-middle font-weight-bold">Note</td>
+                          <td>
+                            <table class="table table-bordered">
+                              <!-- TABLEAU GOUT/SOIF  -->
+                              <tr>
+                                <td>Gout</td>
+                                <td>Soif</td>
+                                <td>Amertume</td>
+                              </tr>
+                              <tr>
+                                <td>2/5</td>
+                                <td>1.5/2</td>
+                                <td>0/2</td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Alcool/volume</td>
+                          <td>3.8%</td>
+                        </tr>
+                        <tr>
+                          <td class="font-weight-bold">Fermentation</td>
+                          <td>Basse</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <div class="row">
+                      <!-- BOUTON RESEAU SOCIAUX  -->
+                      <button class="btn"><i class="fa fa-twitter"></i></button>
+                      <button class="btn"><i class="fa fa-facebook"></i></button>
+                      <button class="btn"><i class="fa fa-google-plus"></i></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                    <br><br>
+                    <table class="table">
+                      <!--TABLEAU PRIX   -->
+                      <tr>
+                        <td class="font-weight-bold">Unité</td>
+                        <td>7€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Caisse (x6)</td>
+                        <td>30€</td>
+                      </tr>
+                      <tr>
+                        <td class="font-weight-bold">Fut</td>
+                        <td>100€</td>
+                      </tr>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--modal end-->
+</section>
+            
 <!--FOOTER Noel -->
 <footer>
 <div class="container-fluid bg-dark text-light">
@@ -1634,8 +1014,8 @@
 </footer>
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+      <script src="../vendor/jquery/jquery-3.3.1.min.js"></script>
+      <script src="../vendor/popper/popper.min.js"></script>
+      <script src="../vendor/bootstrap-4/js/bootstrap.min.js"></script>
 </body>
 </html>
