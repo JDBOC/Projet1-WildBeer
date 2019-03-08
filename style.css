@@ -170,6 +170,7 @@ a {
 
 /*CSS CATEGORIES JEAN MICHEL */
 
+
 .jm-cat {
     background-image: url("asset/img/jm/stonehenge.jpg");
     background-size: cover;
@@ -177,6 +178,11 @@ a {
 
 #categories {
     background-image: linear-gradient(#343a40, #f9b233);
+}
+
+#categories a, #categories a:hover{
+    color: black;
+
 }
 
 #categories .jmCatTitle {
