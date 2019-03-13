@@ -92,7 +92,7 @@ a {
 }
 
 .k-cat {
-    background-image: url("/home/vnk/wcs/quetes/Projet/Projet-Wild-Beer/asset/img/kevin/BG-Asia.jpg");
+    background-image: url("asset/img/kevin/BG-Asia.jpg");
 }
 
 .kev-carousel-caption {
@@ -135,7 +135,7 @@ a {
 }
 
 .k-bg {
-    background-image: url("../asset/img/kevin/back-pop.jpg");
+    background-color: rgb(114, 113, 113);
 }
 
 .kev-card2 {
@@ -154,6 +154,7 @@ a {
 .kev-card5 {
     border: 5px solid #f9b233;
     border-bottom: 15px solid #f9b233;
+    
 }
 
 .kev-card6 {
@@ -164,7 +165,7 @@ a {
 }
 .k-shade {
     border-radius: 40px;
-    text-shadow: 2px 1px 2px white;
+    color: white;
 }
 
 
