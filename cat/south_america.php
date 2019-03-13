@@ -141,7 +141,7 @@
                   "noteAmertume" => 2,
                   "pays" => "Brésil",
                   "tauxAlcool" => 5,
-                  "Fermentation" => "Basse",
+                  "fermentation" => "Basse",
                   "prixCaisse" => 15.00,
                   "prixFut" => "NA"
                 ),
@@ -155,7 +155,7 @@
                   "noteAmertume" => 2,
                   "pays" => "Brésil",
                   "tauxAlcool" => "5",
-                  "Fermentation" => "Basse",
+                  "fermentation" => "Basse",
                   "prixCaisse" => 11.00,
                   "prixFut" => "NA"
                 ),
@@ -169,7 +169,7 @@
                   "noteAmertume" => 1,
                   "pays" => "Brésil",
                   "tauxAlcool" => 6.1,
-                  "Fermentation" => "Basse",
+                  "fermentation" => "Basse",
                   "prixCaisse" => 14.50,
                   "prixFut" => "NA"
                 ),
@@ -183,7 +183,7 @@
                   "noteAmertume" => 1.5,
                   "pays" => "Argentine",
                   "tauxAlcool" => 4.5,
-                  "Fermentation" => "Basse",
+                  "fermentation" => "Basse",
                   "prixCaisse" => 8.50,
                   "prixFut" => "NA"
                 ),
@@ -197,7 +197,7 @@
                   "noteAmertume" => 0,
                   "pays" => "Brésil",
                   "tauxAlcool" => 3.5,
-                  "Fermentation" => "Basse",
+                  "fermentation" => "Basse",
                   "prixCaisse" => 11.50,
                   "prixFut" => "NA"
                 ),
@@ -211,7 +211,7 @@
                   "noteAmertume" => 0.5,
                   "pays" => "Argentine",
                   "tauxAlcool" => 5,
-                  "Fermentation" => "Basse",
+                  "fermentation" => "Basse",
                   "prixCaisse" => 11.00,
                   "prixFut" => "NA"
                 ),
@@ -225,7 +225,7 @@
                   "noteAmertume" => 2,
                   "pays" => "Brésil",
                   "tauxAlcool" => 5,
-                  "Fermentation" => "Basse",
+                  "fermentation" => "Basse",
                   "prixCaisse" => 11.00,
                   "prixFut" => "NA"
                 ),
@@ -239,7 +239,7 @@
                   "noteAmertume" => 0.5,
                   "pays" => "Brésil",
                   "tauxAlcool" => 4.5,
-                  "Fermentation" => "Basse",
+                  "fermentation" => "Basse",
                   "prixCaisse" => 8.50,
                   "prixFut" => "NA"
                 ),
@@ -253,7 +253,7 @@
                   "noteAmertume" => 1.5,
                   "pays" => "Brésil",
                   "tauxAlcool" => 5.5,
-                  "Fermentation" => "Haute",
+                  "fermentation" => "Haute",
                   "prixCaisse" => 13.50,
                   "prixFut" => "NA",
                 )
@@ -267,7 +267,7 @@
                 <div class="card p-1">
                   <div class="row m-0">
                     <div class="col-sm-12  col-5 px-0 d-flex align-items-center">
-                      <img class="card-img-top " data-toggle="modal" data-target="#'.$southAmericaBeer[$i].'" src="'.$southAmericaBeer[$i]['image'].'" alt="Card image">
+                      <img class="card-img-top " data-toggle="modal" data-target="#'.str_replace(" ", "_",$southAmericaBeer[$i]["nom"]).'" src="'.$southAmericaBeer[$i]['image'].'" alt="Card image">
                     </div>
                     <div class="card-body  col-sm-12  col-7 bg-dark text-white">
                       <h4 class="card-title  text-center  ">'.$southAmericaBeer[$i]['nom'].'</h4>
@@ -280,7 +280,7 @@
                 </div>
               </div>
                <!-- DEBUT partie popup  -->
-               <div id="'.$southAmericaBeer[$i].'" class="modal fade" role="dialog">
+               <div id="'.str_replace(" ", "_",$southAmericaBeer[$i]["nom"]).'" class="modal fade" role="dialog">
                  <div class="modal-dialog modal-lg">
                    <div class="modal-content">
                      <div class="modal-header bg-dark text-light">
@@ -331,7 +331,7 @@
                                    <td>'.$southAmericaBeer[$i]['tauxAlcool'].'%</td>
                                  </tr>
                                  <tr>
-                                   <td class="font-weight-bold">Fermentation</td>
+                                   <td class="font-weight-bold">fermentation</td>
                                    <td>'.$southAmericaBeer[$i]['fermentation'].'</td>
                                  </tr>
                                </table>
