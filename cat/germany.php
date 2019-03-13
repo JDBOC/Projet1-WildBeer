@@ -35,10 +35,7 @@ $myArray = array_map('str_getcsv', file('../asset/infos/bdd.csv'));
 
 foreach ($myArray as $value) {
   // code...
-  foreach ($value as $final) {
-    print_r($final);
-    echo '<br />';
-  }
+
 }
 
 // footer things
