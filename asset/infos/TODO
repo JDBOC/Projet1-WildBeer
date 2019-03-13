@@ -1,8 +1,14 @@
-footer : formulaire sur col-6 
-footer : logo et adresse sur la droite
-template page categorie
-wireframe version desktop
-charte graphique
-rechercher 10 produits pour sa cat
-cards produits: prévoir un padding de 5px autour des images
+CSS 
+	Index
+		Fond partie JM doit être le même que partie 'top vente'
+		'top-vente' doit tj être à l'horizontale'
+
+	cat/asia
+		Mettre fond charte graphique
+		Pb lien image footer ?
+
+	cat/allemagne
+		Mettre fond charte graphique
+		card 'top-produit' doit être horizontale
+
 
