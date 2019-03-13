@@ -41,6 +41,9 @@
             On retrouve donc des goûts de bières communs à l'Europe mais certaines spécificités sont très intéressantes a découvrir et vous en trouverez dans notre catalogue.
           </p>
         </section>
+      </div>
+      <div class="container">
+
         <section>
 
           <h3 class="text-warning text-center khtext2">Les produits top ventes</h3>
@@ -118,6 +121,8 @@
             </a>
           </div>
         </section>
+      </div>
+      <div class="container">
         <section id="nosProduits">
           <h3 class="text-center text-warning khtext2">
             Notre Sélection :
@@ -257,7 +262,7 @@
 
             for ($i = 0 ; $i < count($southAmericaBeer); $i++){
 
-              echo('
+             echo('
               <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2 ">
                 <div class="card p-1">
                   <div class="row m-0">
@@ -366,10 +371,10 @@
                </div>');
              };
                ?>
-      </div>
-    </div>
-  </section>
-
+             </div>
+           </div>
+         </div>
+       </section>
     <!--FOOTER Noel -->
     <footer>
 
