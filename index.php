@@ -15,49 +15,9 @@
   </head>
 
   <body>
-    <!-- NAVBAR Thomas -->
     <header>
-      <div class="container-fluid">
-        <div class="row nav-bg-orange">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12 bg-dark">
-            <nav class="navbar justify-content-around navbar-expand-xs navbar-expand-lg navbar-expand-md bg-dark border-dark">
-              <!-- Links -->
-
-
-              <div class="nav-item tom-go-right">
-                <table>
-                  <tr>
-                    <td> <button class="navbar-toggler tom-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span
-                          class="tom-white-text"><i class="fas fa-bars fa-1x"></i></button></td>
-                    <td>
-                      <a href="index.html" class="navbar-brand text-light "><img class="tom-icon" src="asset/img/thomas/iconeshop.png" alt="logo"> Wild bazard</a>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-              <div class="collapse navbar-collapse justify-content-around" id="navbarSupportedContent15">
-
-                <ul class="navbar-nav flex-fill justify-content-around">
-                  <!-- Collapsible content -->
-                  <li class="nav-item"><a class="nav-link text-light  nav-activated" href="#aboutUs">About us</a></li>
-                  <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/belgium.html">Belgique</a></li>
-                  <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/germany.html">Allemagne</a></li>
-                  <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/south_america.html">Amérique du sud</a></li>
-                  <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/asia.html">Asie</a></li>
-                  <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/france.html">France</a></li>
-                  <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/uk.html">Angleterre</a></li>
-                </ul>
-              </div>
-            </nav>
-          </div>
-        </div>
-      </div>
+    <!-- NAVBAR Thomas -->
+     <?php include('header.php');?>
     </header>
     <!--caroussel KEVIN-->
     <section id="caroussel">
@@ -429,121 +389,7 @@
 
     <!--FOOTER Noel -->
     <footer>
-      <div class="container-fluid bg-dark text-light">
-        <div class="row justify-content-center back-footer">
-          <div class="col-lg-6 col-12">
-            <div class="row">
-              <div class="col-3 text-center">
-                <p class="font-weight-bold">REJOIGNER NOUS SUR:</p>
-              </div>
-              <div class="col-1 offset-1 text-center">
-                <i class="fab fa-facebook-f fa-2x" style="color: white;"></i>
-              </div>
-              <div class="col-1 text-center">
-                <i class="fab fa-twitter fa-2x" style="color: white;"></i>
-              </div>
-              <div class="col-1 text-center">
-                <i class="fab fa-instagram fa-2x" style="color: white;"></i>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-6 col-12">
-            <div class="row">
-              <div class="col-3 text-center">
-                <p class="font-weight-bold">APPLI MOBILE:</p>
-              </div>
-              <div class="col-1 offset-1 text-center">
-                <i class="fab fa-apple fa-2x" style="color: white;"></i>
-              </div>
-              <div class="col-1 text-center">
-                <i class="fab fa-android fa-2x" style="color: white;"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 text-center"><br>
-            <img class="img-fluid logofooter" alt="Responsive image" src="asset/img/noel/iconeshop.png">
-          </div>
-          <div class="col-lg-4">
-            <div class="form-group">
-              <div class="row">
-                <div class="col-12"><br>
-                  <p>1O euros Offert pour votre premier achat profiter en !</p>
-                </div>
-                <div class="col-lg-6">
-                  <label for="exampleFormControlInput1">Email address</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Your message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea><br>
-                    <button class="btn btn-primary" type="submit">Submit</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3"><br>
-            <h2>Wild bazar</h2>
-            <p>1 Rue de la paix<br>75 001 CEDEX<br>SAV 56 78<br>Recrutement<br>A propos de WildBeer</p>
-          </div>
-          <div class="col-lg-2"><br>
-            <h2>Nos partenaires</h2><br>
-            <a href="https://urlz.fr/96tG">
-              <p>Wild Code School</p>
-            </a>
-            <a href="https://urlz.fr/96tG">
-              <p>Bière académie</p>
-            </a>
-            <a href="https://urlz.fr/96tG">
-              <p>Maison de l'Alcool</p>
-            </a>
-          </div>
-        </div>
-        <hr style="background-color: white;">
-        <div class="row mx-auto">
-          <div class="col-lg-3 col-12">
-            <i class="fab fa-fedex fa-2x" style="color: white;"></i>
-            <h4 class="font-weight-bold text-warning policefooter">Expedition rapide</h4>
-            <p>Emballage anti-casse envoyés sous 24h</p>
-          </div>
-          <div class="col-lg-3 col-12">
-            <i class="fab fa-tripadvisor fa-2x" style="color: white;"></i>
-            <h4 class="font-weight-bold text-warning policefooter">4,8/5</h4>
-            <p>Nos client nous adorent et nous leur rendons bien</p>
-          </div>
-          <div class="col-lg-3 col-12">
-            <i class="fab fa-untappd fa-2x" style="color: white;"></i>
-            <h4 class="font-weight-bold text-warning policefooter">Logo dans le thème</h4>
-            <p>...</p>
-          </div>
-          <div class="col-lg-3 col-12">
-            <i class="fab fa-dev fa-2x" style="color: white;"></i>
-            <h4 class="font-weight-bold text-warning policefooter">Tu devras</h4>
-            <p>N'est ce pas ?</p>
-          </div>
-        </div>
-        <div class="row justify-content-center iconefooter">
-          <div class="col-lg-2 col-4">
-            <i class="fab fa-cc-mastercard fa-2x" style="color: white;"></i>
-          </div>
-          <div class="col-lg-2 col-4">
-            <i class="fab fa-paypal fa-2x" style="color: white;"></i>
-          </div>
-          <div class="col-lg-2 col-4">
-            <i class="fab fa-cc-visa fa-2x" style="color: white;"></i>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-12">
-            <p class="taillepolicefooter  ">(L'ABUS D'ALCOOL EST DANGEROUS POUR LA SANTÉ.)</p>
-          </div>
-        </div>
-
-      </div>
-
-      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
-
+      <?php include('footer.php');?>
     </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
