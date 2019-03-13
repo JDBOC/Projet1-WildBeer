@@ -12,7 +12,7 @@
                     <td> <button class="navbar-toggler tom-btn" type="button" data-toggle="collapse" data-target="#navbarSupportedContent15" aria-controls="navbarSupportedContent15" aria-expanded="false" aria-label="Toggle navigation"><span
                           class="tom-white-text"><i class="fas fa-bars fa-1x"></i></button></td>
                     <td>
-                      <a href="index.html" class="navbar-brand text-light "><img class="tom-icon" src="asset/img/thomas/iconeshop.png" alt="logo"> Wild bazard</a>
+                      <a href="index.html" class="navbar-brand text-light "><img class="tom-icon" src="../asset/img/thomas/iconeshop.png" alt="logo"> Wild bazard</a>
                     </td>
                   </tr>
                 </table>
