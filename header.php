@@ -25,7 +25,7 @@
                   <li class="nav-item  text-light tom-invisible">|</li>
                   <li class="nav-item"><a class="nav-link text-light " href="cat/belgium.html">Belgique</a></li>
                   <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/germany.html">Allemagne</a></li>
+                  <li class="nav-item"><a class="nav-link text-light " href="cat/germany.php">Allemagne</a></li>
                   <li class="nav-item  text-light tom-invisible">|</li>
                   <li class="nav-item"><a class="nav-link text-light " href="cat/south_america.php">Amérique du sud</a></li>
                   <li class="nav-item  text-light tom-invisible">|</li>
