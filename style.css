@@ -35,6 +35,8 @@ a {
 
 /*CSS NAVBAR THOMAS*/
 
+
+
 .tom-white-text {
     color: #fff;
 }
@@ -47,7 +49,36 @@ a {
 }
 .tom-image{
   padding: 5px;
+
 }
+.tom-cat-title{
+  color : #4F575E;
+}
+.tom-card-bg{
+  background-color: #1A1F24;
+}
+.tom-btn-bg{
+  background-color: #FFFCF1;
+  color: #1A1F24;
+}
+.tom-card-text{
+  color: #BFB8A4;
+}
+.tom-card-desc{
+  color: #BFB8A4;
+}
+
+.tom-page-bg{
+  background-color: #FFFCF1;
+}
+
+.tom-card-border{
+  background-color: #383426;
+}
+.tom-nav-bg{
+  background-color: #121B25;
+}
+
 
 
 .tom-icon {
@@ -154,7 +185,7 @@ a {
 .kev-card5 {
     border: 5px solid #f9b233;
     border-bottom: 15px solid #f9b233;
-    
+
 }
 
 .kev-card6 {

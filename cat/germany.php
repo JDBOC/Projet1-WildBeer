@@ -1,32 +1,33 @@
-<!doctype html>
-<html lang="fr">
-
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-    <link rel="stylesheet" href="../style.css">
-    <title>Wild Beer!</title>
-  </head>
-
+<?php
+include('../doctype.php');
+?>
   <body>
     <header>
     <!-- NAVBAR Thomas -->
      <?php include('../header_cat.php');?>
     </header>
-<div class="container-fluid">
+<div class="container-fluid tom-page-bg">
+  <section id="descripCat">
+    <br><br>
+    <h2 class="font-weight-bold tom-cat-title ">
+      <!--LE NOM DE VOTRE CATEGORIE--> Les Bierres allemandes</h2><br /><br />
+    <p class="tom-cat-title ">
+      <!--LE TEXTE DESCRIPTIF DE VOTRE CATEGORIE-->La bière allemande trouve son origine dans le haut Moyen Âge. Depuis des siècles, la bière fait partie de la culture et de la gastronomie allemande, et le pays est constellé de Bierpalast («
+      palais de la bière »), de Biergarten (« jardin de la bière »), de Bierstube1 (« brasserie »), de Bierkeller (« cave à bière »), de Bierhaus (« maison de la bière ») et Bierzelt (« tente à bière ») que l'on retrouve lors des nombreuses fêtes
+      de la bière. </p>
+
+  </section>
+  <div class="container-fluid">
+    <div class="row">
+      <img src="../asset/img/thomas/cat-img.jpg" class="img-responsive" alt="Beer">
+    </div>
+  </div>
     <section id="nosProduits">
-      <h3 class="text-dark font-weight-bold">Retrouve les bières de
+    <br />  <h3 class="tom-cat-title font-weight-bold">Retrouve les bières d'Allemagne
         <!--VOTRE CATEGORIE-->
-      </h3>
+      </h3><br />
       <div class="container">
-        <div class="row ">
+        <div class="row d-flex justify-content-around">
 
 <?php
 
@@ -39,16 +40,16 @@ foreach ($myArray as $bierre) {
     //echo count($value).BR; ==== 11 de lenght
 
     echo '<div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2 ">'
-    .'<div class="card p-1">'
+    .'<div class="card p-1 tom-card-border">'
       .'<div class="row m-0">'
-      .'<div class="col-sm-12  col-5 px-0 d-flex align-items-center">'
+      .'<div class="col-sm-12  col-12 px-0 d-flex align-items-center">'
           .'<img class="card-img-top " data-toggle="modal" data-target="#'.substr($bierre[10], 0, -4).'" src="../asset/img/thomas/'.$bierre[10].'" alt="Card image">'
       .'</div>'
-        .'<div class="card-body  col-sm-12  col-7 bg-dark text-white">'
-          .'<h4 class="card-title  text-center  ">'.$bierre[0].'</h4>'
-          .'<p class="card-text text-justify">'.$bierre[1].'</p>'
-          .'<p class="text-success font-weight-bold text-center">1.80 €</p>'
-          .'<button type="button" name="button" class="btn btn-warning btn-block  p-1"> Ajouter au Panier !</button>'
+        .'<div class="card-body  col-sm-12  col-12 tom-card-bg text-white">'
+          .'<h4 class="card-title tom-card-text  text-center  ">'.$bierre[0].'</h4>'
+          .'<p class="card-text tom-card-desc text-justify">'.$bierre[1].'</p>'
+          .'<p class="tom-card-text font-weight-bold text-center">1.80 €</p>'
+          .'<button type="button" name="button" class="btn tom-btn-bg btn-block  p-1"> Ajouter au Panier !</button>'
         .'</div>'
       .'</div>'
 .'</div>'
@@ -57,12 +58,12 @@ foreach ($myArray as $bierre) {
 <div id="'.substr($bierre[10], 0, -4).'" class="modal fade" role="dialog">
   <div class="modal-dialog modal-lg">
     <div class="modal-content">
-      <div class="modal-header bg-dark text-light">
+      <div class="modal-header tom-card-bg text-light">
         <div class="container-fluid">
           <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-6 col-6">
               <!-- TITRE DU POPUP  -->
-              <h4 class="modal-title">'.$bierre[0].'</h4>
+              <h4 class="modal-title tom-card-text">'.$bierre[0].'</h4>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-6 col-6">
               <!--  BOUTON CROIX FERMETURE -->
