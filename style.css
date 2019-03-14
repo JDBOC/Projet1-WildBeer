@@ -67,6 +67,12 @@ a {
 .tom-card-desc{
   color: #BFB8A4;
 }
+.tom-hr{
+  background-color: #BFB8A4;
+}
+.tom-footer-title{
+  color: #f9b233;
+}
 
 .tom-page-bg{
   background-color: #FFFCF1;
@@ -329,9 +335,9 @@ a {
     /* Remove borders */
     outline: none;
     /* Remove outline */
-    background-color: red;
+    background-color: #121B25;
     /* Set a background color */
-    color: white;
+    color: #f9e79f  ;
     /* Text color */
     cursor: pointer;
     /* Add a mouse pointer on hover */
