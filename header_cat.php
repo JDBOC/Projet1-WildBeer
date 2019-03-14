@@ -1,3 +1,8 @@
+<?php
+const BR = '<br />';
+?>
+
+
 
       <div class="container-fluid">
         <div class="row nav-bg-orange">
