@@ -16,7 +16,7 @@
 <body>
     <!-- Header -->
     <header> 
-<?php include ('../header.php');?>
+<?php include ('../header_cat.php');?>
 <?php include ('noelphp/tableau.php');?>    
     </header>
 
@@ -39,7 +39,7 @@
     </div>
     <!--FOOTER Noel -->
     <footer>
-        <?php include ('../footer.php');?>
+        <?php include ('../footer_cat.php');?>
     </footer>
 
     <!-- Optional JavaScript -->

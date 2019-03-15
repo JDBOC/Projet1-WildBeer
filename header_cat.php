@@ -26,7 +26,7 @@ const BR = '<br />';
 
                 <ul class="navbar-nav flex-fill justify-content-around">
                   <!-- Collapsible content -->
-                  <li class="nav-item"><a class="nav-link tom-card-desc " href="belgium.html">Belgique</a></li>
+                  <li class="nav-item"><a class="nav-link tom-card-desc " href="belgium.php">Belgique</a></li>
                   <li class="nav-item"><a class="nav-link tom-card-desc" href="germany.php">Allemagne</a></li>
                   <li class="nav-item"><a class="nav-link tom-card-desc " href="south_america.php">Amérique du sud</a></li>
                   <li class="nav-item"><a class="nav-link tom-card-desc" href="asia.html">Asie</a></li>
