@@ -17,6 +17,7 @@
     </div>
   </div>
 </div>
+
 <!-- DEBUT partie popup  -->
             <div id="'.$biereFrance[$i]['titre'].'" class="modal fade" role="dialog">
               <div class="modal-dialog modal-lg">
@@ -107,4 +108,7 @@
                 </div>
               </div>
             </div>';}
+
 ?>
+
+
