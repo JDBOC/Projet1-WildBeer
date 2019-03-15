@@ -10,7 +10,7 @@ $beerAsia = [
  'amertume' => 2,
  'pays' => 'Laos',
  'pourcent' => 5,
- 'prixCaisse  => 9.80,', ],
+ 'prixCaisse'  => 9.80, ],
 
 ['nom' => 'ASAHI',
  'prix' => 2.60,

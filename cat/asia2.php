@@ -19,7 +19,7 @@
 
 	<body class="bg-secondary">
 		<header>
-<?php include('../header_cat.php') ?>
+			<?php include('../header_cat.php') ?>
 		</header>
 		<div class="container-fluid k-cat">
 			<div class="container"><br>
@@ -42,9 +42,7 @@
 				<section>
 			</div>
 			<div class="container">
-
 <?php include ('asiaCaroussel.php') ?>
-
 				<section id="nosProduits">
 					<h3 class="text-center text-warning khtext2">
 						Notre Sélection :
@@ -69,9 +67,9 @@
 
 
 			<!--FOOTER Noel -->
-			<footer class="m-0">
+			<footer>
 
-<?php include('../footer_cat.php') ?>
+					<?php include('../footer_cat.php') ?>
 
 			</footer>
 			<!-- Optional JavaScript -->
