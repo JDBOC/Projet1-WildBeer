@@ -73,7 +73,9 @@ a {
 .tom-footer-title{
   color: #f9b233;
 }
-
+.tom-desc-size{
+  font-size: 24px;
+}
 .tom-page-bg{
   background-color: #FFFCF1;
 }

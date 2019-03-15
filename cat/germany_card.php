@@ -15,7 +15,7 @@ foreach ($myArray as $bierre) {
         .'<div class="card-body  col-sm-12  col-12 tom-card-bg text-white">'
           .'<h4 class="card-title tom-card-text  text-center  ">'.$bierre[0].'</h4>'
           .'<p class="card-text tom-card-desc text-justify">'.$bierre[1].'</p>'
-          .'<p class="tom-card-text font-weight-bold text-center">1.80 €</p>'
+          .'<p class="tom-card-text font-weight-bold text-center">'.$bierre[7].'</p>'
           .'<button type="button" name="button" class="btn tom-btn-bg btn-block  p-1"> Ajouter au Panier !</button>'
         .'</div>'
       .'</div>'
