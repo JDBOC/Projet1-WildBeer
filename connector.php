@@ -14,14 +14,14 @@
 
          private $conn;
 
-         const DB = "project_wild_beer";
-         const SERVER = 'localhost';
-         const USER = 'root';
-         const PASS = '';
+         private $bd = "project_wild_beer";
+         private $server = '127.0.0.1';
+         private $user = 'root';
+         private $password = 'oversniper419';
 
          public function __construct()
          {
-             $this->conn = buildConnector(SERVER, DB, USER, PASS);
+             $this->conn = $this->buildConnector($this->server, $this->bd, $this->user, $this->password);
          }
 
 
@@ -30,7 +30,7 @@
              try{
                return new PDO("mysql:host=$srv;dbName=$db", $usr, $pass);
              }catch (PDOException $pe){
-               die("Could not connect to the database ".DB." : ".$pe->getMessage());
+               die("Could not connect to the database ".$db." : ".$pe->getMessage());
              }
          }
 

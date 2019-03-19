@@ -1,4 +1,6 @@
-<?php include('../doctype.php');?>
+<?php include('../doctype.php');
+      include('../connector.php');
+?>
 
 <body>
   <header>
@@ -7,6 +9,10 @@
   <div class="container-fluid tom-page-bg">
     <?php include('germanyData/germanyJumbotron.php');?>
     <section id="nosProduits">
+      <?php
+      $myConnector = new Connector();
+      print_r($myConnector->selectCat('germany'));
+      ?>
       <br />
       <h3 class="tom-cat-title font-weight-bold tom-caviar text-center">Retrouve les bières d'Allemagne</h3><br />
       <div class="container">
