@@ -14,29 +14,36 @@
 
          private $conn;
 
-         private $bd = "project_wild_beer";
+         private $db = "PWB";
          private $server = '127.0.0.1';
          private $user = 'root';
          private $password = 'oversniper419';
 
          public function __construct()
          {
-             $this->conn = $this->buildConnector($this->server, $this->bd, $this->user, $this->password);
+             $this->conn = $this->buildConnector($this->server, $this->db, $this->user, $this->password);
          }
 
 
          public function buildConnector($srv, $db, $usr, $pass)
          {
-             try{
-               return new PDO("mysql:host=$srv;dbName=$db", $usr, $pass);
-             }catch (PDOException $pe){
-               die("Could not connect to the database ".$db." : ".$pe->getMessage());
-             }
+             if(mysqli_connect_errno()) die("Could not connect to the database ".$db." : ") . mysqli_connect_error();
+             else return mysqli_connect($srv, $usr, $pass, $db);
          }
 
          public function selectCat($cat){
-           $sql = "SELECT * FROM categorie WHERE catName=".$cat.";";
-           return $this->conn->query($sql)->setFetchMode(PDO::FETCH_ASSOC);
+           $myArray = Array();
+           $sql = "SELECT * FROM categorie WHERE catName LIKE '%".$cat."%'";
+           $data = mysqli_query($this->conn, $sql);
+           while($row = $data->fetch_assoc()){
+             array_push($myArray, $row);
+           }
+           return $myArray;
+         }
+
+         public function close(){
+           $this->conn->close();
+           return "Connection has been closed.";
          }
 
      }
