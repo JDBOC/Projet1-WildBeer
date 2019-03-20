@@ -84,7 +84,7 @@
           <div class="col-lg-3 col-12">
             <i class="fab fa-untappd fa-2x tom-card-desc"></i>
             <h4 class="font-weight-bold tom-footer-title policefooter">Logo dans le thème</h4>
-            <p>...</p>
+            <p class="tom-card-desc">...</p>
           </div>
           <div class="col-lg-3 col-12">
             <i class="fab fa-dev fa-2x tom-card-desc" ></i>
