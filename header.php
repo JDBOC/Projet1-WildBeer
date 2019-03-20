@@ -47,7 +47,7 @@
               <li class="nav-item nav-link d-none d-md-block">|</li>
               <li class="nav-item"><a class="nav-link" href="<?=$catPath."asia.php"?>">Asie</a></li>
               <li class="nav-item nav-link d-none d-md-block">|</li>
-              <li class="nav-item"><a class="nav-link" href="<?=$catPath."france.html"?>">France</a></li>
+              <li class="nav-item"><a class="nav-link" href="<?=$catPath."france.php"?>">France</a></li>
               <li class="nav-item nav-link d-none d-md-block">|</li>
               <li class="nav-item"><a class="nav-link" href="<?=$catPath."uk.php"?>">Angleterre</a></li>
             </ul>

@@ -63,10 +63,9 @@
       <div class="container">
         <h3 class="pl-3">Les bières du monde entier à votre porte en 48h !</h3>
         <div class="row px-4 pb-3">
-          <!--TODO lier BgImg,flagImg, catName et CatText à chaque jmCardContainer -->
           <div class="jmCardContainer col-sm-6 col-lg-4 p-2">
             <!--asia category -->
-            <a href="cat/asia.html">
+            <a href="cat/asia.php">
             <div class="card p-0 ">
               <img src="asset/img/jm/catBackground/AsiaBackground.jpg" class="card-img" alt="...">
               <div class="card-img-overlay ">
@@ -78,7 +77,7 @@
           </div>
           <!--belgium category -->
           <div class="jmCardContainer col-sm-6 col-lg-4 p-2">
-             <a href="cat/belgium.html">
+             <a href="cat/belgium.php">
             <div class="card p-0 ">
               <img src="asset/img/jm/catBackground/BelgiqueBackground.jpg" class="card-img" alt="...">
               <div class="card-img-overlay ">
@@ -90,7 +89,7 @@
           </div>
           <!--germany category -->
           <div class="jmCardContainer col-sm-6 col-lg-4 p-2">
-            <a href="cat/germany.html">
+            <a href="cat/germany.php">
             <div class="card p-0 ">
               <img src="asset/img/jm/catBackground/germanyBackground.png" class="card-img" alt="...">
               <div class="card-img-overlay ">
@@ -102,7 +101,7 @@
           </div>
           <!--south america category -->
           <div class="jmCardContainer col-sm-6 col-lg-4 p-2">
-            <a href="cat/south_america.html">
+            <a href="cat/south_america.php">
             <div class="card p-0 ">
               <img src="asset/img/jm/catBackground/southAmericaBackground.png" class="card-img" alt="...">
               <div class="card-img-overlay ">
@@ -114,7 +113,7 @@
           </div>
           <!--france category -->
           <div class="jmCardContainer col-sm-6 col-lg-4 p-2">
-            <a href="cat/france.html">
+            <a href="cat/france.php">
             <div class="card p-0 ">
               <img src="asset/img/jm/catBackground/franceBackground.jpg" class="card-img" alt="...">
               <div class="card-img-overlay ">
@@ -126,7 +125,7 @@
           </div>
           <!--UK category -->
           <div class="jmCardContainer col-sm-6 col-lg-4 p-2">
-            <a href="cat/uk.html">
+            <a href="cat/uk.php">
             <div class="card p-0 ">
               <img src="asset/img/jm/catBackground/UkBackground.jpg" class="card-img" alt="...">
               <div class="card-img-overlay ">
