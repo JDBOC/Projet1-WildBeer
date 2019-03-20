@@ -41,7 +41,7 @@ $biereFrance = array(
           "descriptif"=> "Haec habet inposito Bostram varietate Bostram haec gentium Bostram obtemperare rectoreque et atque veterum saepe cautissimas inposito marte castellis et Traianus rectoreque castrisque Traianus inter ingentes urgeret erexit oppida conserta tumore oppida adtributo legibus et ex provinciae imperator habet quoque.")
     );
 
-for ($i=0; $i < 2 ; $i++) { 
+for ($i=0; $i < 9 ; $i++) { 
   echo'
 <div class="col-12 col-sm-6 col-md-4 col-lg-3 px-1 py-2 ">
   <div class="card p-1">
