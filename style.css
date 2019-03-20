@@ -41,6 +41,15 @@ a {
     color: #fff;
 }
 
+@font-face {
+  font-family: caviar;
+  src: url(asset\fonts\thomas\CaviarDreams.ttf);
+}
+
+.tom-caviar{
+  font-family: caviar; !important
+}
+
 .tom-btn {
     float: left;
 }
@@ -78,6 +87,11 @@ a {
 }
 .tom-page-bg{
   background-color: #FFFCF1;
+}
+.tom-jumbotron{
+filter :opacity(40%);
+filter : grayscale(50%);
+
 }
 
 .tom-card-border{
@@ -363,15 +377,6 @@ a {
 
 .card-product-category {
     margin-bottom: 15px;
-}
-
-.bg-quentin {
-    background-image: url("asset/img/quentin/Bresil-lumieres-de-la-nuit.jpg");
-}
-
-.qbtext {
-    color: #fff;
-    text-shadow: 2px 1px 2px #f9b233;
 }
 
 
