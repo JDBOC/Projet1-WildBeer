@@ -1,10 +1,4 @@
-<?php include('../doctype.php') ?>
-
-  <body>
-    <!-- NAVBAR Thomas -->
-    <header>
-      <?php include('../header_cat.php') ?>
-    </header>
+<?php include('../header.php') ?>
 
       <div class="container"><br>
 
@@ -40,11 +34,11 @@
               <?php include('southAmerica/southAmericaCards.php');?>
              </div>
            </div>
+           <a href="southAmerica/addForm.php"><button type="button" name="button" class="btn btn-outline-secondary">Add a Product</button></a>
          </div>
        </section>
-    <!--FOOTER Noel -->
-    <footer>
-      <?php include('../footer_cat.php') ?>
-    </footer>
 
-  <?php include('../scriptImport.php');?>
+
+    <!--FOOTER Noel -->
+
+      <?php include('../footer.php') ?>
