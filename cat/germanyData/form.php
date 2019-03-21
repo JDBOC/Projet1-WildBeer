@@ -29,19 +29,17 @@
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
                                     <input type="text" id="name" name="name" class="form-control">
-                                    <label for="name" class="tom-caviar">Beer name</label>
+                                    <label for="name" id="nameLabel" class="tom-caviar">Nom de la biere</label>
                                 </div>
-                                <div class="error"><?= $nameError ?></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="md-form mb-0">
-                                    <input type="text" id="country" name="country" class="form-control">
-                                    <label for="country" class="tom-caviar">Beer origin country</label>
+                                    <input type="text" id="country" name="country" class="form-control" >
+                                    <label for="country" id="countryLabel" class="tom-caviar">Pays d'origine</label>
                                 </div>
                             </div>
-                            <div class="error"><?= $countryError ?></div>
                         </div>
 
 
@@ -52,11 +50,10 @@
                     <div class="col-md-7">
                         <div class="md-form mb-0">
                             <textarea type="text" id="desc" name="desc" class="form-control md-textarea"
-                                      rows="2"></textarea>
-                            <label for="desc" class="tom-caviar">Your description</label>
+                                      rows="2" ></textarea>
+                            <label for="desc" class="tom-caviar" id="descLabel">Description</label>
                         </div>
                     </div>
-                    <div class="error"><?= $descError ?></div>
                     <!--Grid column-->
 
                 </div>
@@ -118,35 +115,32 @@
                             <div class="col-12">
                                 <div class="md-form mb-0">
                                     <input type="text" id="beerPrice" name="beerPrice" class="form-control">
-                                    <label for="beerPrice" class="tom-caviar">Beer price</label>
+                                    <label for="beerPrice" class="tom-caviar" id="beerPriceLabel">Prix unitaire</label>
                                 </div>
                             </div>
-                            <div class="error"><?= $priceError ?></div>
                         </div>
                         <div class="row">
                             <div class="col-12">
                                 <div class="md-form mb-0">
                                     <input type="text" id="sixPackPrice" name="sixPackPrice" class="form-control">
-                                    <label for="sixPackPrice" class="tom-caviar">Six pack Price</label>
+                                    <label for="sixPackPrice" class="tom-caviar" id="sixPackPriceLabel">Prix du pack</label>
                                 </div>
                             </div>
-                            <div class="error"> <?= $sixPackError ?></div>
                         </div>
                         <div class="row">
                             <div class="col-12">
                                 <div class="md-form mb-0">
                                     <input type="text" id="kegPrice" name="kegPrice" class="form-control">
-                                    <label for="kegPrice" class="tom-caviar">Keg price</label>
+                                    <label for="kegPrice" class="tom-caviar" id="kegPriceLabel">Prix du fut</label>
                                 </div>
                             </div>
-                            <div class="error"><?= $kegError ?></div>
                         </div>
                     </div>
                     <!--Grid row-->
 
             </form>
             <div class="text-center text-md-left d-flex justify-content-center">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+                <a class="btn btn-primary" id="submitBtn" onclick="validateForm();">Send</a>
             </div>
             <div class="status"></div>
         </div>

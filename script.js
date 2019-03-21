@@ -11,7 +11,9 @@ function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
+//***********^^^^^^^Fonction bouton top^^^^^^^^^**************************
 
+//sliders tom
 function tomSliderGout(val){
   document.getElementById('goutField').innerHTML = val;
 }
@@ -23,6 +25,81 @@ function tomSliderAmertume(val){
 }
 function tomSliderAlcohol(val){
   document.getElementById('alcoholField').innerHTML = val;
+}
+//end tom sliders
+
+// tom validation front
+
+function validateForm() {
+
+  document.getElementById('nameLabel').classList.remove('text-danger');
+  document.getElementById('countryLabel').classList.remove('text-danger');
+  document.getElementById('descLabel').classList.remove('text-danger');
+  document.getElementById('beerPriceLabel').classList.remove('text-danger');
+  document.getElementById('sixPackPriceLabel').classList.remove('text-danger');
+  document.getElementById('kegPriceLabel').classList.remove('text-danger');
+
+  document.getElementById('nameLabel').innerHTML  = 'Nom de la biere';
+  document.getElementById('countryLabel').innerHTML = 'Pays d\'origine';
+  document.getElementById('descLabel').innerHTML = 'Description';
+  document.getElementById('beerPriceLabel').innerHTML = 'Prix unitaire';
+  document.getElementById('sixPackPriceLabel').innerHTML = 'Prix du pack';
+  document.getElementById('kegPriceLabel').innerHTML = 'Prix du fut';
+
+
+  var name =  document.getElementById('name').value;
+
+  if (name == "") {
+    document.getElementById('nameLabel').innerHTML += "  : Ce champ est obligatoire.";
+    document.getElementById('nameLabel').classList.add('text-danger');
+    return false;
+  }
+
+
+  var country =  document.getElementById('country').value;
+  if (country == "") {
+    document.getElementById('countryLabel').innerHTML += "  : Ce champ est obligatoire.";
+    document.getElementById('countryLabel').classList.add('text-danger');
+    return false;
+  }
+
+  var desc =  document.getElementById('desc').value;
+  if (desc == "") {
+    document.getElementById('descLabel').innerHTML += "  : Ce champ est obligatoire.";
+    document.getElementById('descLabel').classList.add('text-danger');
+    return false;
+  }
+
+  var beerPrice =  document.getElementById('beerPrice').value;
+  if (beerPrice == "") {
+    document.getElementById('beerPriceLabel').innerText += "  : Ce champ est obligatoire.";
+    document.getElementById('beerPriceLabel').classList.add('text-danger');
+    return false;
+  }
+
+
+  var sixPackPrice =  document.getElementById('sixPackPrice').value;
+  if (sixPackPrice == "") {
+    document.getElementById('sixPackPriceLabel').innerHTML += "  : Ce champ est obligatoire.";
+    document.getElementById('sixPackPriceLabel').classList.add('text-danger');
+    return false;
+  }
+
+  var kegPrice =  document.getElementById('kegPrice').value;
+  if (kegPrice == "") {
+    document.getElementById('kegPriceLabel').innerHTML += "  : Ce champ est obligatoire.";
+    document.getElementById('kegPriceLabel').classList.add('text-danger');
+    return false;
+  }
+  document.getElementById('submitBtn').innerHTML = "Sending...";
+  document.getElementById('contact-form').submit();
+
+}
+
+//end tom validation front
+
+function rmClass(myId){
+  document.getElementById(myId).classList.remove('text-danger');
 }
 
 
