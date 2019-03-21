@@ -29,11 +29,11 @@
                   <li class="nav-item  text-light tom-invisible">|</li>
                   <li class="nav-item"><a class="nav-link text-light " href="cat/south_america.php">Amérique du sud</a></li>
                   <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/asia.html">Asie</a></li>
+                  <li class="nav-item"><a class="nav-link text-light " href="cat/asia.php">Asie</a></li>
                   <li class="nav-item  text-light tom-invisible">|</li>
                   <li class="nav-item"><a class="nav-link text-light " href="cat/france.html">France</a></li>
                   <li class="nav-item  text-light tom-invisible">|</li>
-                  <li class="nav-item"><a class="nav-link text-light " href="cat/uk.html">Angleterre</a></li>
+                  <li class="nav-item"><a class="nav-link text-light " href="cat/uk.php">Angleterre</a></li>
                 </ul>
               </div>
             </nav>

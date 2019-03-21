@@ -82,9 +82,10 @@ foreach ($results as $biere) {
               </div>
               <div class="row">
                 <!-- BOUTON RESEAU SOCIAUX  -->
-                <button class="btn"><i class="fa fa-twitter"></i></button>
-                <button class="btn"><i class="fa fa-facebook"></i></button>
-                <button class="btn"><i class="fa fa-google-plus"></i></button>
+                  <a class="fa-lg p-2 m-2 li-ic "><i class="fab fa-linkedin-in "></i></a>
+                  <a class="fa-lg p-2 m-2 tw-ic"><i class="fab fa-twitter "></i></a>
+                  <!-- Dribbble -->
+                  <a class="fa-lg p-2 m-2 fb-ic"><i class="fab fa-facebook-f"></i></a>
               </div>
             </div>
           </div>

@@ -2,7 +2,7 @@
       include('../connector.php');
 ?>
 
-<body>
+<body style="background-color: #fffcf1;">
   <header>
     <?php include('../header_cat.php');?>
   </header>
@@ -17,6 +17,7 @@
         </div>
       </div>
       <br /><br />
+        <?php include('germanyData/form.php'); ?>
     </section>
   </div>
   <footer>
