@@ -15,7 +15,7 @@ function test_input($data){
     return $data;
 }
 
-// TODO File management and security
+// TODO File management and security && FERMENTATION DROPDOWN MENU no vaidation needed if you have a default value ^^
 
 if ($_SERVER["REQUEST_METHOD"] == 'POST'){
 
