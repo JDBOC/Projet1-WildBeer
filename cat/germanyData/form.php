@@ -31,6 +31,7 @@
                                     <input type="text" id="name" name="name" class="form-control">
                                     <label for="name" class="tom-caviar">Beer name</label>
                                 </div>
+                                <div class="error"><?= $nameError ?></div>
                             </div>
                         </div>
                         <div class="row">
@@ -40,7 +41,7 @@
                                     <label for="country" class="tom-caviar">Beer origin country</label>
                                 </div>
                             </div>
-
+                            <div class="error"><?= $countryError ?></div>
                         </div>
 
 
@@ -55,6 +56,7 @@
                             <label for="desc" class="tom-caviar">Your description</label>
                         </div>
                     </div>
+                    <div class="error"><?= $descError ?></div>
                     <!--Grid column-->
 
                 </div>
@@ -65,7 +67,7 @@
                     <div class="col-md-9">
                         <div class="input-group">
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="inputGroupFile01"
+                                <input type="file" class="custom-file-input" id="inputGroupFile01" name="file"
                                        aria-describedby="inputGroupFileAddon01">
                                 <label class="custom-file-label tom-caviar" for="inputGroupFile01">Choose file</label>
                             </div>
@@ -83,7 +85,7 @@
                         <div class="row">
                             <div class="col-8">
                                 <label for="customRange2" class="tom-caviar">Gout</label>
-                                <input type="range" class="custom-range" min="0" max="5" step="0.5" id="gout">
+                                <input type="range" class="custom-range" min="0" max="5" step="0.5" id="gout" name="gout">
                             </div>
                             <div class="col-4 d-flex justify-content-center"> <span class="tom-caviar" style="margin-top: auto;" id="goutField"></span> </div>
 
@@ -91,7 +93,7 @@
                         <div class="row">
                             <div class="col-8">
                                 <label for="customRange2" class="tom-caviar">Soif</label>
-                                <input type="range" class="custom-range" min="0" max="2" step="0.5" id="soif">
+                                <input type="range" class="custom-range" min="0" max="2" step="0.5" id="soif" name="soif">
                             </div>
                             <div class="col-4 d-flex justify-content-center"> <span class="tom-caviar" style="margin-top: auto;" id="soifField"></span> </div>
 
@@ -99,7 +101,7 @@
                         <div class="row">
                             <div class="col-8">
                                 <label for="customRange2" class="tom-caviar">Amertume</label>
-                                <input type="range" class="custom-range" min="0" max="2" step="0.5" id="amertume">
+                                <input type="range" class="custom-range" min="0" max="2" step="0.5" id="amertume" name="amertume">
                             </div>
                             <div class="col-4 d-flex justify-content-center"> <span class="tom-caviar" style="margin-top: auto;" id="amertumeField"></span> </div>
                         </div>
@@ -119,7 +121,7 @@
                                     <label for="beerPrice" class="tom-caviar">Beer price</label>
                                 </div>
                             </div>
-
+                            <div class="error"><?= $priceError ?></div>
                         </div>
                         <div class="row">
                             <div class="col-12">
@@ -128,7 +130,7 @@
                                     <label for="sixPackPrice" class="tom-caviar">Six pack Price</label>
                                 </div>
                             </div>
-
+                            <div class="error"> <?= $sixPackError ?></div>
                         </div>
                         <div class="row">
                             <div class="col-12">
@@ -137,7 +139,7 @@
                                     <label for="kegPrice" class="tom-caviar">Keg price</label>
                                 </div>
                             </div>
-
+                            <div class="error"><?= $kegError ?></div>
                         </div>
                     </div>
                     <!--Grid row-->

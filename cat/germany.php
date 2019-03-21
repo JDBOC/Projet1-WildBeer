@@ -3,6 +3,7 @@
 ?>
 
 <body style="background-color: #fffcf1;">
+    <?php include('germanyData/formValidation.php')?>
   <header>
     <?php include('../header_cat.php');?>
   </header>
