@@ -1,9 +1,9 @@
-Factory Export,../asset/img/quentin/bresilFactoryExport.png,Une bière de type lager avec un mélange de malts et une combinaison de houblon frappant.,2.50,3,1.5,2,Brésil,5,Basse,15.00,NA
-Soleron Helles,../asset/img/quentin/bresilSolerun.png,"Bière à basse fermentation, facile à boire! Goût malté modérés, arôme à base de plantes.",1.80,5,1.5,2,Brésil,5,Basse,11.00,NA
-Tupiquim Dubbel,../asset/img/quentin/bresilTupiquimDubbel.png,Bière forte qui fait penser à la Dubbel Ale Belge. Plusieurs fois primés par des jurys brésiliens.,2.50,4,2,1,Brésil,6.1,Basse,14.50,NA
-Murica,../asset/img/quentin/argentineMurica.png,Une bière blonde très douce et très facile a boire. A consommer très fraîche un jour d'été et au bord d'une piscine.,1.50,2,1,1.5,Argentine,4.5,Basse,8.50,NA
-Patagonia,../asset/img/quentin/argentinePatagonia.png,Une Pilsner patagonienne avec du corps et bien équilibrée signée Cerveceria y Malteria Quilmes !,2.50,3.5,2,0,Brésil,3.5,Basse,11.5,NA
-Quilmes,../asset/img/quentin/argentineQuilmes.png,Une pils rafraîchissante ne manquera pas de vous rappeler l'exotisme de votre voyage en Amérique du Sud.,1.85,3,1.5,0.5,Argentine,5,Basse,11.00,NA
-Union Belgian Blond Ale,../asset/img/quentin/bresilUnion.png,Une bière forte et avec de la personnalité qui rappel les bières Belges,2.15,2,0.5,2,Brésil,5,Basse,11.00,NA
-Imaculada Helles,../asset/img/quentin/bresilMaculada.png,Recette Allemande équilibrée entre le malt et le houblon. On retrouve la douceur et la fraicheur du malt.,1.50,2.5,2,.5,Brésil,4.5,Basse,8.50,NA
-Felsen Märzen,../asset/img/quentin/felsenMarzen.jpg,Une recette parfaite pour découvrir une bière noire avec des belles notes de café.,2.25,4,1.5,1.5,Brésil,5.5,Haute,13.5,NA
+Factory Export,../asset/img/quentin/bresilFactoryExport.png,Une bière de type lager avec un mélange de malts et une combinaison de houblon frappant.,2.50,3,1.5,2,5,Basse,Brésil,15.00,NA
+Soleron Helles,../asset/img/quentin/bresilSolerun.png,"Bière à basse fermentation, facile à boire! Goût malté modérés, arôme à base de plantes.",1.80,5,1.5,2,5,Basse,Brésil,11.00,NA
+Tupiquim Dubbel,../asset/img/quentin/bresilTupiquimDubbel.png,Bière forte qui fait penser à la Dubbel Ale Belge. Plusieurs fois primés par des jurys brésiliens.,2.50,4,2,1,6.1,Brésil,Basse,14.50,NA
+Murica,../asset/img/quentin/argentineMurica.png,Une bière blonde très douce et très facile a boire. A consommer très fraîche un jour d'été et au bord d'une piscine.,1.50,2,1,1.5,4.5,Basse,Argentine,8.50,NA
+Patagonia,../asset/img/quentin/argentinePatagonia.png,Une Pilsner patagonienne avec du corps et bien équilibrée signée Cerveceria y Malteria Quilmes !,2.50,3.5,2,0,3.5,Basse,,Brésil,11.5,NA
+Quilmes,../asset/img/quentin/argentineQuilmes.png,Une pils rafraîchissante ne manquera pas de vous rappeler l'exotisme de votre voyage en Amérique du Sud.,1.85,3,1.5,0.5,5,Basse,Argentine,11.00,NA
+Union Belgian Blond Ale,../asset/img/quentin/bresilUnion.png,Une bière forte et avec de la personnalité qui rappel les bières Belges,2.15,2,0.5,2,5,Basse,Brésil,11.00,NA
+Imaculada Helles,../asset/img/quentin/bresilMaculada.png,Recette Allemande équilibrée entre le malt et le houblon. On retrouve la douceur et la fraicheur du malt.,1.50,2.5,2,.5,4.5,Basse,Brésil,8.50,NA
+Felsen Märzen,../asset/img/quentin/felsenMarzen.jpg,Une recette parfaite pour découvrir une bière noire avec des belles notes de café.,2.25,4,1.5,1.5,5.5,Haute,Brésil,13.5,NA

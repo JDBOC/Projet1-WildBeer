@@ -70,10 +70,14 @@ foreach ($myArray as $biere) {
                    </tr>
                    <tr>
                      <td class="font-weight-bold">Alcool/volume</td>
-                     <td><?=$biere[8]?>%</td>
+                     <td><?=$biere[7]?>%</td>
                    </tr>
                    <tr>
                      <td class="font-weight-bold">fermentation</td>
+                     <td><?=$biere[8]?></td>
+                   </tr>
+                   <tr>
+                     <td class="font-weight-bold">Pays</td>
                      <td><?=$biere[9]?></td>
                    </tr>
                  </table>
