@@ -14,7 +14,6 @@ function test_input($data){
     return $data;
 }
 
-// TODO File management and security
 
 if ($_SERVER["REQUEST_METHOD"] == 'POST'){
 
@@ -31,5 +30,5 @@ if ($_SERVER["REQUEST_METHOD"] == 'POST'){
     if ($_POST['fermentationHaute'] == "on") $fermentation = "Haute";
     else $fermentation = "Basse";
 
-
+// to upload to db
 }

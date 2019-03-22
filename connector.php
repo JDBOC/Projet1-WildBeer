@@ -44,6 +44,14 @@ class Connector
         return $myArray;
     }
 
+    public function addBeer($dataArr){
+        // array contains [name, country, desc, gout, soif, amertume, fermentation, beerPrice, sixPackPrice, kegPrice, categorie]
+        $sql = "INSERT INTO categorie (beerName, beerDesc, beerTaste, beerThirsty, beerBitterness, beerAlcohol, beerFermentation, beerPrice, sixPackPrice, kegPrice, imgName, catName)
+              VALUES ($dataArr[0], $dataArr[1], $dataArr[2], $dataArr[3], $dataArr[4], $dataArr[5], $dataArr[6], $dataArr[7],
+              $dataArr[8], $dataArr[9], $dataArr[10], $dataArr[11])";
+        return (mysqli_query($this->conn, $sql)) ?  "Data inserted" : "An error occured nothing has been inserted";
+    }
+
     public function close()
     {
         //close the db connection
