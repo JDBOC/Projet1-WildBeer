@@ -5,8 +5,7 @@
  * Date: 21/03/19
  * Time: 17:01
  */
-
-$file = $gout = $soif = $amertume = $alcohol = '';
+ $gout = $soif = $amertume = $alcohol = $fermentation = '';
 
 function test_input($data){
     $data = trim($data);
@@ -15,7 +14,7 @@ function test_input($data){
     return $data;
 }
 
-// TODO File management and security && FERMENTATION DROPDOWN MENU no vaidation needed if you have a default value ^^
+// TODO File management and security
 
 if ($_SERVER["REQUEST_METHOD"] == 'POST'){
 
@@ -29,7 +28,8 @@ if ($_SERVER["REQUEST_METHOD"] == 'POST'){
     $soif = $_POST['soif'];
     $amertume = $_POST['amertume'];
     $alcohol = $_POST['alcohol'];
-
+    if ($_POST['fermentationHaute'] == "on") $fermentation = "Haute";
+    else $fermentation = "Basse";
 
 
 }

@@ -19,7 +19,7 @@
 
         <!--Grid column-->
         <div class="col-md-12 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST">
+            <form id="contact-form" name="contact-form" action="<?= $_SERVER['PHP_SELF']; ?>" method="POST" enctype="multipart/form-data">
 
                 <!--Grid row-->
                 <div class="row">
@@ -60,18 +60,6 @@
                 <!--Grid row-->
                     <br/>
                 <!--Grid row-->
-                <div class="row">
-                    <div class="col-md-9">
-                        <div class="input-group">
-                            <div class="custom-file">
-                                <input type="file" class="custom-file-input" id="inputGroupFile01" name="file"
-                                       aria-describedby="inputGroupFileAddon01">
-                                <label class="custom-file-label tom-caviar" for="inputGroupFile01">Choose file</label>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
                 <!--Grid row-->
                 <br/>
                 <!--Grid row-->
@@ -111,6 +99,21 @@
                         </div>
                     </div>
                     <div class="col-md-6">
+                        <div class="row">
+                            <div class="col-12 d-flex justify-content-around">
+                                <span class="custom-label tom-caviar">Fermentation : </span>
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" checked id="fermentationHaute" name="fermentationHaute">
+                                    <label class="custom-control-label" for="fermentationHaute">Haute</label>
+                                </div>
+
+                                <!-- Default inline 2-->
+                                <div class="custom-control custom-radio custom-control-inline">
+                                    <input type="radio" class="custom-control-input" id="fermentationBasse" name="fermentationBasse">
+                                    <label class="custom-control-label" for="fermentationBasse">Basse</label>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-12">
                                 <div class="md-form mb-0">
