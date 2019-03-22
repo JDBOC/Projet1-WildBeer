@@ -145,7 +145,7 @@ filter : grayscale(50%);
 }
 
 .k-cat {
-    background-image: url("asset/img/kevin/BG-Asia.jpg");
+    background-image: url("/asset/img/kevin/BG-Asia.jpg");
 }
 
 .kev-carousel-caption {

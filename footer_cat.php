@@ -32,7 +32,7 @@
         </div>
         <div class="row">
           <div class="col-lg-3 text-center"><br>
-            <img class="img-fluid logofooter" alt="Responsive image" src="../asset/img/noel/iconeshop.png">
+            <img class="img-fluid logofooter" alt="Responsive image" src="../../asset/img/noel/iconeshop.png">
           </div>
           <div class="col-lg-4">
             <div class="form-group">

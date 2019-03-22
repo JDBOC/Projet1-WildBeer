@@ -13,13 +13,13 @@
 		crossorigin="anonymous">
 		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css?family=Abril+Fatface" rel="stylesheet">
-		<link rel="stylesheet" href="../style.css">
+		<link rel="stylesheet" href="../../style.css">
 		<title>Wild Beer Asia</title>
 	</head>
 
 	<body class="bg-secondary">
 		<header>
-<?php include('../header_cat.php') ?>
+<?php include('../../header_cat.php') ?>
 		</header>
 		<div class="container-fluid k-cat">
 			<div class="container"><br>
@@ -71,7 +71,7 @@
 			<!--FOOTER Noel -->
 			<footer class="m-0">
 
-<?php include('../footer_cat.php') ?>
+<?php include('../../footer_cat.php') ?>
 
 			</footer>
 			<!-- Optional JavaScript -->
@@ -82,7 +82,7 @@
 			crossorigin="anonymous"></script>
 			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
 			crossorigin="anonymous"></script>
-			<script src="../script.js"></script>
+			<script src="../../script.js"></script>
 
 
 	</body>

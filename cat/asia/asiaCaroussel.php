@@ -13,7 +13,7 @@
                 <div class="card custom-card kev-card">
                   <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-6 col-12">
-                      <img class="card-img-top kev-card2" src="../asset/img/kevin/Beers/asa_img.jpg" alt="Card image">
+                      <img class="card-img-top kev-card2" src="../../asset/img/kevin/Beers/asa_img.jpg" alt="Card image">
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-6 col-12">
                       <div class="card-body black-card d-flex flex-column justify-content-center bg-dark text-light">
@@ -47,7 +47,7 @@
                 <div class="card custom-card kev-card">
                   <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-6 col-12">
-                      <img class="card-img-top kev-card2" src="../asset/img/kevin/Beers/Beerlao_car.jpg" alt="Card image">
+                      <img class="card-img-top kev-card2" src="../../asset/img/kevin/Beers/Beerlao_car.jpg" alt="Card image">
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-6 col-12">
                       <div class="card-body black-card d-flex flex-column justify-content-center bg-dark text-light">
@@ -81,7 +81,7 @@
                 <div class="card custom-card kev-card">
                   <div class="row">
                     <div class="col-lg-12 col-md-12 col-sm-6 col-12">
-                      <img class="card-img-top kev-card2" src="../asset/img/kevin/Beers/singha-lager.jpg" alt="Card image">
+                      <img class="card-img-top kev-card2" src="../../asset/img/kevin/Beers/singha-lager.jpg" alt="Card image">
                     </div>
                     <div class="col-lg-12 col-md-12 col-sm-6 col-12">
                       <div class="card-body black-card d-flex flex-column justify-content-center bg-dark text-light">

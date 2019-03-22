@@ -1,5 +1,6 @@
-<?php ?>
-
+<?php
+include 'asiaData.php';
+?>
 <div class="card custom-card col-12 col-lg-3 card-product-category kev-card m-1 mb-5">
 
   <div class="row">

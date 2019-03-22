@@ -3,7 +3,7 @@
 $beerAsia = [
 ['nom' => 'BEERLAO',
  'prix' => 1.80,
- 'img' => "../../asset/img/kevin/Beers/BEER-LAO_resultat_2.jpg",
+ 'img' => '../../asset/img/kevin/Beers/BEER-LAO_resultat_2.jpg',
  'descriptif' => 'Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.',
  'gout' => 3,
  'soif' => 1.5,
@@ -14,7 +14,7 @@ $beerAsia = [
 
 ['nom' => 'ASAHI',
  'prix' => 2.60,
- 'img' => "../../asset/img/kevin/Beers/ASAHI2_resultat_2.jpg",
+ 'img' => '../../asset/img/kevin/Beers/ASAHI2_resultat_2.jpg',
  'descriptif' => 'La bière blonde la plus vendue au Japon...et dans les restaurants de sushis!',
  'gout' => 5,
  'soif' => 1.5,
