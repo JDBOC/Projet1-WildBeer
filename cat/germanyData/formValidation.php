@@ -27,7 +27,7 @@ if ($_SERVER["REQUEST_METHOD"] == 'POST'){
     $soif = $_POST['soif'];
     $amertume = $_POST['amertume'];
     $alcohol = $_POST['alcohol'];
-    if ($_POST['fermentationHaute'] == "on") $fermentation = "Haute";
+    if ($_POST['fermentation'] == "on") $fermentation = "Haute";
     else $fermentation = "Basse";
 
 // to upload to db

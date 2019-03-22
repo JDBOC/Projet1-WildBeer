@@ -96,11 +96,25 @@ function validateForm() {
 
 }
 
-//end tom validation front
-
-function rmClass(myId){
-  document.getElementById(myId).classList.remove('text-danger');
+function check(id) {
+  document.getElementById(id).checked = true;
 }
+
+function uncheck(id) {
+  document.getElementById(id).checked = false;
+}
+
+
+function btnSwap(id){
+  if(document.getElementById(id).checked == true;){
+    check(id);
+  }else{
+    uncheck(id);
+  }
+
+}
+
+//end tom validation front
 
 
 $( document ).ready(function() {
@@ -121,6 +135,8 @@ $( document ).ready(function() {
 
   document.getElementById('alcohol').onchange = function () {tomSliderAlcohol(this.value);}
   document.getElementById('alcoholField').innerHTML = document.getElementById('alcohol').value;
+
+  $(input[type="radio"]).on('click change', btnSwap(this.id));
 
 //end sliders tom
 

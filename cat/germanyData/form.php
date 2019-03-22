@@ -103,13 +103,13 @@
                             <div class="col-12 d-flex justify-content-around">
                                 <span class="custom-label tom-caviar">Fermentation : </span>
                                 <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" class="custom-control-input" checked id="fermentationHaute" name="fermentationHaute">
+                                    <input type="radio" class="custom-control-input" checked id="fermentationHaute" name="fermentation">
                                     <label class="custom-control-label" for="fermentationHaute">Haute</label>
                                 </div>
 
                                 <!-- Default inline 2-->
                                 <div class="custom-control custom-radio custom-control-inline">
-                                    <input type="radio" class="custom-control-input" id="fermentationBasse" name="fermentationBasse">
+                                    <input type="radio" class="custom-control-input" id="fermentationBasse" name="fermentation">
                                     <label class="custom-control-label" for="fermentationBasse">Basse</label>
                                 </div>
                             </div>
