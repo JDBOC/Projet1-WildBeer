@@ -33,44 +33,45 @@ include 'asiaFormTest.php';
         <div class="row">
           <div class="form-group col-md-8 ml-auto mr-5 mb-5">
             <label for="img" class="mr-5" >Uploader votre image:</label>
+            <span class="error">* <?php echo $imgErr;?></span>
             <input type="file" name="img" class="form-control-file" id="img"  value="<?php if(isset($_POST['img'])) echo $_POST['img']; ?>" >
           </div>
         </div>
         <div class="row mb-5">
           <div class="form-group col-lg-3 ml-5 mr-5">
             <label for="gout">Goût :</label><span class="error">* <?php echo $goutErr;?></span>
-            <select class="form-control" name="gout" id="gout" value="<?php if(isset($_POST['img'])) echo $_POST['img']; ?>" >
-              <option>  0 / 5</option>
-              <option>0.5 / 5</option>
-              <option>  1 / 5</option>
-              <option>1.5 / 5</option>
-              <option>  2 / 5</option>
-              <option>2.5 / 5</option>
-              <option>  3 / 5</option>
-              <option>3.5 / 5</option>
-              <option>  4 / 5</option>
-              <option>4.5 / 5</option>
-              <option>  5 / 5</option>
+            <select class="form-control" name="gout" id="gout" value="<?php if(isset($_POST['gout'])) echo $_POST['gout']; ?>" >
+              <option value= "0"   >  0 / 5</option>
+              <option value= "0.5" >0.5 / 5</option>
+              <option value= "1"   >  1 / 5</option>
+              <option value= "1.5" >1.5 / 5</option>
+              <option value= "2"   >  2 / 5</option>
+              <option value= "2.5" >2.5 / 5</option>
+              <option value= "3"   >  3 / 5</option>
+              <option value= "3.5" >3.5 / 5</option>
+              <option value= "4"   >  4 / 5</option>
+              <option value= "4.5" >4.5 / 5</option>
+              <option value= "5"   >  5 / 5</option>
             </select>
           </div>
           <div class="form-group col-lg-3 ml-5 mr-5">
             <label for="soif">Soif :</label><span class="error">* <?php echo $soifErr;?></span>
             <select class="form-control" name="soif" id="soif" value="<?php if(isset($_POST['soif'])) echo $_POST['soif']; ?>" >
-              <option>0 / 2</option>
-              <option>0.5 / 2</option>
-              <option>1 / 2</option>
-              <option>1.5 / 2</option>
-              <option>2 / 2</option>
+              <option value= "0"   >0 / 2</option>
+              <option value= "0.5" >0.5 / 2</option>
+              <option value= "1"   >1 / 2</option>
+              <option value= "1.5" >1.5 / 2</option>
+              <option value= "2"   >2 / 2</option>
             </select>
           </div>
           <div class="form-group col-lg-3 ml-4 mr-4">
             <label for="amertume">Amertume :</label><span class="error">* <?php echo $amertumeErr;?></span>
             <select class="form-control" name="amertume" id="amertume" value="<?php if(isset($_POST['amertume'])) echo $_POST['amertume']; ?>" >
-              <option>0 / 2</option>
-              <option>0.5 / 2</option>
-              <option>1 / 2</option>
-              <option>1.5 / 2</option>
-              <option>2 / 2</option>
+              <option value= "0"   >0 / 2</option>
+              <option value= "0.5" >0.5 / 2</option>
+              <option value= "1"   >1 / 2</option>
+              <option value= "1.5" >1.5 / 2</option>
+              <option value= "2"   >2 / 2</option>
             </select>
           </div>
         </div>
@@ -94,7 +95,7 @@ include 'asiaFormTest.php';
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+<?php print_r($_POST) ?>
   </body>
 
 </html>

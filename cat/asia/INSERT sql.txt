@@ -1,0 +1,10 @@
+INSERT INTO Beers (nom, prix, img, descriptif, gout, soif, amertume, pays, pourcent, prixCaisse)
+VALUES ('BEERLAO', '1.80', '../../asset/img/kevin/Beers/BEER-LAO_resultat_2.jpg', 'Brassée avec un unique riz lao blanchi et eau fraîche naturelle du Laos.' , '3', '1.5', '2', 'Laos', '5', '9.80'),
+('ASAHI', '2.60', '../../asset/img/kevin/Beers/ASAHI2_resultat_2.jpg', 'La bière blonde la plus vendue au Japon...et dans les restaurants de sushis!', '5', '1.5', '2', 'Japon', '5', '14.00'),
+('TIGER', '2.55', '../../asset/img/kevin/Beers/TIGER_resultat_2.jpg', 'Une bière blonde premium brassée : malt australien, houblon allemand.', '2', '2', '1', 'Singapour', '5.1', '15.00'),
+('TSINGTAO', '2.60', '../../asset/img/kevin/Beers/TSINGTAO_resultat_2.jpg', 'La bière chinoise rafraîchissante la plus connue et répandue !', '2', '1', '1.5', 'Chine', '5', '14.50'),
+('SNOW', '1.85', './../asset/img/kevin/Beers/SNOW_resultat_2.jpg', 'Une bière lager originaire de Chine avec fermentation basse.', '3.5', '2', '0.5', 'Chine', '3.5', '10.10'),
+('SINGHA', '1.55', '../../asset/img/kevin/Beers/SINGHA_resultat_2.jpg', 'Une bière premium thailandaise empreinte d’exotisme et d’élégance.', '3', '1.5', '1.5', 'Thaïlande', '5', '9.00'),
+('CAMBODIA', '2.00', '../../asset/img/kevin/Beers/Cambodia_resultat_2.jpg', 'Elle porte le nom de sa patrie. La bière la plus consommé au Cambodge!', '2', '0.5', '2', 'Cambodge', '5', '11.00'),
+('ANGKOR', '1.55', './../asset/img/kevin/Beers/ANGKOR-BEER_resultat_2.jpg', 'Une bière blonde type pils brassée au Cambodge. Douce et légère.', '4', '2', '1.5', 'Cambodge', '5', '8.60'),
+('SAIGON', '2.10', '../../asset/img/kevin/Beers/SAIGON_resultat_2.jpg', 'Pils vietnamienne légère et désaltérante brassée avec du malt et du riz.', '3', '1.5', '1.5', 'Vietnam', '4.9', '11.60');
